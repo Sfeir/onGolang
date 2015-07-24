@@ -1,0 +1,20 @@
+Small Go Apps Containers
+23 Jul 2015
+Tags: docker,container
+
+Didier Girard
+
+* Summary
+Carlos Alexandro Becker :
+
+"Well, as you may know, there is a good amount of people now building microservices in Go and deploying them as Docker containers.
+I do not yet have a lot of experience with Go and Docker, but I'll try to share what I learned while building and shipping an internal tool, here, at ContaAzul."
+
+[[http://carlosbecker.com/posts/small-go-apps-containers/][Small Go Apps Containers]]
+
+.image micro-container/container.png 300 _
+
+
+
+
+

@@ -1,0 +1,9 @@
+1.5: compile go code to Android or iOS
+23 Jul 2015
+Tags: Mobile, Android, iOS
+
+Didier Girard
+* Summary
+
+With the upcoming release of go 1.5 the ability to compile go code to work on Android or iOS is being introduced. You can either write your application completely in go with opengl for your ui, or write a go library that can interact with native android/iOS.
+[[http://www.codingvelocity.com/2015/07/23/go-mobile-intro.html][See Android Go! Go, Android. Go!]]

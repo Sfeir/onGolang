@@ -1,0 +1,12 @@
+QOR E-commerce & CMS SDK written in Go
+24 Jul 2015
+Tags: CMS, PoweredByGo
+
+Didier Girard
+* Summary
+
+QOR is architected from the ground up to accelerate development and deployment of Content Management Systems, E-commerce Systems, and Business Applications. QOR is comprised of modules that abstract common features for such systems, such as a configurable and flexible back office, a content publishing system, a media library, and much more.
+
+We built QOR at The Plant to accelerate development for our clients, it is at the core of our engineering strategy, and we maintain it on an ongoing basis. This is the third rewrite of QOR (QOR3) and is the first to be open sourced. QOR3 is distributed under the MIT license.
+
+[[http://getqor.com/][Get QOR]]

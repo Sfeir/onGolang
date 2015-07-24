@@ -1,0 +1,11 @@
+math.Min and math.Max
+18 Jul 2015
+Tags: Tips
+
+Didier Girard
+* Summary
+
+mrekucci : "Many people, especially newcomers to Go (of course, not all of them), tend to abuse the math.Min and math.Max functions from the math package."
+-> If you want to avoid basic errors using Min and Max, you should read this blog post.
+
+[[http://mrekucci.blogspot.fr/2015/07/dont-abuse-mathmax-mathmin.html][Don't abuse math.Max / math.Min]]
