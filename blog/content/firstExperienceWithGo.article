@@ -1,0 +1,16 @@
+Not so easy to start with Go
+22 Jul 2015
+Tags: Feedback
+
+Didier Girard
+* Summary
+
+Wojciech Adam Koszek : "The other day I stumbled upon a Google Drive command line client. It’s a software project written in the Go language. It lets you access Google Drive from the command line. I felt it was a great project, and I wanted to give it a shot, so I started reading."
+
+Solution to get and build a Go project :
+	 mkdir "$HOME/gopath"
+	 export GOPATH="$HOME/gopath"
+	 export PATH="$GOPATH/bin:$PATH"
+	 go get github.com/prasmussen/gdrive
+
+[[http://www.koszek.com/blog/2015/07/22/why-the-go-wont-be-successful/][Why the Go Language Won't Be Successful]]
