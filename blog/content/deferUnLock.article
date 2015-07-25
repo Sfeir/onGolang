@@ -1,0 +1,17 @@
+defer Un(Lock(&mu))
+25 Jul 2015
+Tags: Tips
+
+Didier Girard
+* Summary
+
+klauspost : After programming Go for more than two years my favorite Go keyword is defer. I might go into detail about this in a future post, but this is one of the nice things I found. About a year ago I came across a funny little Go-ism when I was looking through some code. It was written like this :
+
+	  var mu sync.Mutex
+	  func somefunc() {
+	       defer Un(Lock(&mu))
+	       blablabla
+	   }
+
+[[http://blog.klauspost.com/defer-fun/][defer func()]]
+
