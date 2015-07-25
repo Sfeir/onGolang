@@ -1,0 +1,8 @@
+Fake Data Generator
+25 Jul 2015
+Tags: Package, Dev
+
+Didier Girard
+* Summary
+
+Package fake creates fake (but reasonable) data that can be used for things such as filling databases with fake information during development of database related applications.

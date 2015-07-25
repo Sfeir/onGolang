@@ -1,0 +1,8 @@
+Facebook API, Channels and Go Routines
+02 Mar 2015
+Tags: GoRoutine, API, Facebook
+
+Didier Girard
+* Summary
+
+dumbwhiz : "Making 2 API calls from server to Facebook’s API is slow, and user needs to wait for the whole process to complete. I need to make that faster. I decided on using go routines."
