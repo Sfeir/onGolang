@@ -1,0 +1,11 @@
+Playing with Go Concurrency
+30 Jun 2015
+Tags: GoRoutine, Package, Sync
+
+Didier Girard
+* Summary
+
+Pankaj B : "Go came to existance to solve problems being faced by today’s software, one of them is concurrency (ability to execute stuff in parellel while providing control and communication among them). To solve this go has provided goroutines to execute stuff in parallel."
+
+[[http://idealogylabs.com/blog/golang/2014/03/15/go-to-go-concurrency.html][Concurrency - Go RoutinePart 1]]
+[[http://idealogylabs.com/blog/golang/2015/07/18/golang-waitgroup-with-goroutines.html][Concurrency - Go WaitGroup]]

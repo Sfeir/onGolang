@@ -6,3 +6,5 @@ Didier Girard
 * Summary
 
 Package fake creates fake (but reasonable) data that can be used for things such as filling databases with fake information during development of database related applications.
+
+[[https://github.com/icrowley/fake][Package fake]]
