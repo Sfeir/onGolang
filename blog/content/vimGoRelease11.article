@@ -1,0 +1,7 @@
+vim-go v1.1
+25 Jul 2015
+Tags: vim, tools, ide
+
+Many improvements in this release : GoGenerate, GoFmt GoRun, GoCoverage, GoLing, GoVet, GoImport, GoDef,...
+
+[[https://github.com/fatih/vim-go/releases/tag/v1.1][vim-go 1.1]]
