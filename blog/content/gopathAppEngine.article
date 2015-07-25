@@ -1,0 +1,10 @@
+Configuring GOPATH with AppEngine 
+14 Jul 2015
+Tags: GOPATH, AppEngine
+
+Didier Girard
+* Summary
+
+Mark Mandel : "The aim of this post, and the attached sample code, is to show several options for GOPATH and dependency management when working with Go and App Engine, while exploring some of the pros and cons of each approach. Understanding these options will enable you to start with an initial code layout and GOPATH strategy that will work with your project at its start and well into its lifecycle."
+
+[[http://www.compoundtheory.com/configuring-your-gopath-with-go-and-google-app-engine/][Configuring your GOPATH with Go and Google App Engine]]
