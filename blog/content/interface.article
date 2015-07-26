@@ -1,0 +1,10 @@
+How to use interfaces in Go
+26 Jul 2015
+Tags: Interface, Design
+
+Didier Girard
+* Summary
+
+Jordan Orelli: "In this post, I’ll discuss Go’s type system in an effort to explain how to use interfaces effectively."
+
+A must read.
