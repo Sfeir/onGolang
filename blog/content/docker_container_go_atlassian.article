@@ -1,0 +1,14 @@
+Light Docker Container for Go App
+27 Jul 2015
+Tags: Docker, Container
+
+Didier Girard
+* Summary
+
+Go is a perfect solution for micro-containers. But, if you don't pay attention to it, you container could be fat.
+
+Nicola Paolucci : "Recently I've been writing a service in Go to enhance the projects dashboard on Bitbucket - if you haven't heard we launched Atlassian Connect for Bitbucket as a way for anyone to build add-ons for three millions of Bitbucket users out there. Like many other Gophers I've been happily deploying my Go services using Docker. The process is smooth and pleasurable if not for one thing: the size of the official default Go image."
+
+[[https://developer.atlassian.com/blog/2015/07/osx-static-golang-binaries-with-docker/][Static Go binaries with Docker on OSX]]
+
+
