@@ -1,0 +1,11 @@
+JSON to Go struct
+27 Jul 2015
+Tags: Tool, JSON, Struct
+
+Didier Girard
+* Summary
+
+This tool instantly converts JSON into a Go type definition. Paste a JSON structure on the left and the equivalent Go type will be generated to the right, which you can paste into your program. The script has to make some assumptions, so double-check the output. (And go fmt your code!)
+-> Very useful
+
+[[https://mholt.github.io/json-to-go/][JSON-to-Go]]
