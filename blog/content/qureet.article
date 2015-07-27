@@ -1,0 +1,9 @@
+TweetQureet curate top tweets by interest - PoweredByGo
+Tags: PoweredByGo
+27 Jul 2015
+
+Didier Girard
+* Summary
+TweetQureet is written entirely in Go. The backend and webserver initially ran on a Raspberry Pi!  Due to high demand, the Qureet platform is now hosted on beefier hardware. 
+
+[[http://www.qureet.com/blog/golang-technology-stack/][TweetQureet: a full Golang technology stack]]
