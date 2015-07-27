@@ -1,0 +1,15 @@
+High performance servers
+21 Jul 2015
+Tags: Performance, Slides
+
+Didier Girard
+* Summary
+
+Go is built for performance. A great talk.
+
+Dave Cheney : "The old adage that a slow language doesn't matter because hardware is getting faster, does not apply anymore.
+If performance and scale is important to you, and arguably it is, as you're here in this session, then you'll agree with me that the days of throwing hardware at the problem are over - at least in the conventional sense.
+You need a language which is efficient, because inefficient languages just do not justify themselves in production, at scale, on a capex basis."
+
+
+[[http://go-talks.appspot.com/github.com/davecheney/presentations/performance-without-the-event-loop.slide#1][High performance servers without the event loop (slides)]]
