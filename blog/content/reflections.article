@@ -1,0 +1,11 @@
+reflections : Powerful Reflection Library
+28 Jul 2015
+Tags: Framework, Reflection
+
+Didier Girard
+* Summary
+
+Package reflections provides high level abstractions above the golang reflect library.
+Reflect library is very low-level and can be quite complex when it comes to do simple things like accessing a structure field value, a field tag...
+
+[[https://github.com/oleiade/reflections][reflections library]]
