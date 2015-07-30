@@ -1,0 +1,9 @@
+Go API for Flickr
+30 Jul 2015
+Tags: API, Flickr
+
+Didier Girard
+* Summary
+A go library to easily consume Flickr API. The project is currently under heavy development, so it hasn't a version number yet.
+
+*Lien* : [[https://github.com/masci/flickr.go][Flickr API]]

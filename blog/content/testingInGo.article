@@ -1,0 +1,10 @@
+Testing in Go
+30 Jul 2015
+Tags: Test
+
+Didier Girard
+* Summary
+
+Nick Gauthier : "Go is like coming back to formal programming after the crazy world of Ruby for a little while. It reminds me of C with all the sharp corners sanded off; Go is such a simple language. Some of my favorite things in the programming world are tests, web applications, and databases. Half of all my talks are about tests, in fact. So let’s talk about testing in Go."
+
+*Lien* : [[http://blog.codeship.com/testing-in-go/][Testing in Go]]
