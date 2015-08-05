@@ -1,0 +1,10 @@
+Go 1.5 is out: Say goodbye to C
+01 Aug 2015
+Tags: release, 1.5
+
+Didier Girard
+* Summary
+
+The biggest change highlighted by the team is undoubtedly the fact that both the compiler and runtime are now completely written in Go, thus saying goodbye to C for good. A little cameo of assembler is in there for good measure, too.
+
+[[https://jaxenter.com/go-1-5-is-out-118704.html][Say goodbye to C]]

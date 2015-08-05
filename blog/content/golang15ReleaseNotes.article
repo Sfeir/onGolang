@@ -1,0 +1,12 @@
+Go 1.5 Release Notes
+01 Aug 2015
+Tags: Release, 1.5
+
+Didier Girard
+* Summary
+
+The latest Go release, version 1.5, is a significant release, including major architectural changes to the implementation. Despite that, we expect almost all Go programs to continue to compile and run as before, because the release still maintains the Go 1 promise of compatibility.
+
+A must read
+
+[[http://tip.golang.org/doc/go1.5][Go 1.5 Release Notes]]

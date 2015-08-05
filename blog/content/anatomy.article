@@ -1,0 +1,10 @@
+The anatomy of a Go project
+01 Aug 2015
+Tags: Design, Architecture
+
+Didier Girard
+* Summary
+
+There are a lot of resources about getting started in Go and places where a beginner can play around and become comfortable with the language. This post is about taking the next steps: building robust projects that are fully documented, tested, and usable by the Go community.
+
+[[http://darian.af/post/the-anatomy-of-a-golang-project/][Anatomy of a Go project]]

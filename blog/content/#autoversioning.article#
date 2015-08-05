@@ -1,0 +1,10 @@
+Golang Auto Build Versioning
+05 Aug 2015
+Tags: build, versioning, tips
+
+Didier Girard
+* Summary
+
+Fizer Khan "We needed a version number to find whether the binary was from yesterday or today’s source. Then we decided that for all our golang applications we should have a way to find out the version number, so that we can always query and find out which version it is, there by which source is running."
+
+[[http://www.atatus.com/blog/golang-auto-build-versioning/][Golang Auto Build Versioning]]
