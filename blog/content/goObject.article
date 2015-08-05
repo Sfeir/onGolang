@@ -1,0 +1,10 @@
+Go and Object Design
+03 Aug 2015
+Tags: Architecture, Design, Object
+
+Didier Girard
+* Summary
+
+Nathan Youngman : "There is no inheritance in Go, so leave those is-a relationships at the door. To write Go, we need to think about OO design in terms of composition."
+
+[[http://nathany.com/good/][Go Object Oriented Design]]
