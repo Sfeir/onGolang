@@ -1,0 +1,10 @@
+1 Million Requests per Minute
+06 Jul 2015
+Tags: Architecture, Load
+
+Didier Girard
+* Summary
+
+It’s not everyday that you have a cluster of only 4 machines, that are probably much less powerful than my current MacBook Pro, handling POST requests writing to an Amazon S3 bucket 1 million times every minute.
+
+[[http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/][Handling 1 Million Requests per Minute with Go]]

@@ -1,0 +1,14 @@
+Microservices : From Java to Go
+06 Aug 2015
+Tags: Microservice, Java
+
+Didier Girard
+* Summary
+
+"It took about a day to familiarize myself with Go and port the simple service I picked for this hackathon. The results were extremely promising:
+- Code size was reduced by almost half, from 175 lines down to 96.
+- Resident memory usage dropped from 87MB down to a mere 3MB, a 29x reduction!
+- The resulting docker image shrunk from 668MB to 4.3MB, a 155x reduction!
+Granted, the largest layers were shared by multiple services so the actual reduction of appliance disk footprint will be much smaller as long as there is at least one java service. Still, this number feels extremely satisfying."
+
+[[https://www.aerofs.com/blog/a-little-golang-way/][A little golang way]]
