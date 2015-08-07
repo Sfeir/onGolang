@@ -1,0 +1,10 @@
+Utilizing custom tags in struct type fields
+07 Aug 2015
+Tags: Tips, Tag
+
+Didier Girard
+* Summary
+
+Matthew Cunningham : "What exactly is a tag? A tag is extra metadata associated to a single struct type field that can be examined at runtime. This has been popularized by the encoding/json package."
+
+[[http://mattcunningham.net/post/125740143590/tutorial-utilizing-custom-tags-in-struct-type][]]
