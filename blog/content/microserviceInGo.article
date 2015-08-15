@@ -1,0 +1,10 @@
+Create microservices in GO
+15 Aug 2015
+Tags: Book, Microservices, Docker
+
+Didier Girard
+* Summary
+
+GO is a great language for building microservices. However there are a lot of challenges to navigate. How do you do caching, manage databases. Monitor and analyze performance. Integrate with Docker. Do continous deployments. Run on private or public clouds. eBook Version : $15
+
+[[http://microservicesingo.com/][Create microservices in Go]]

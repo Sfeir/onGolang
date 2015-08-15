@@ -11,7 +11,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	"html/template"
-	"log"
+
 	"net/http"
 	"os"
 	"path/filepath"
@@ -20,8 +20,16 @@ import (
 	"strings"
 	"time"
 
+	"google.golang.org/appengine"
+	"google.golang.org/appengine/log"
+	"google.golang.org/appengine/urlfetch"
+
+	"golang.org/x/net/context"
 	"golang.org/x/tools/blog/atom"
 	"golang.org/x/tools/present"
+
+	"github.com/ChimeraCoder/anaconda"
+	gapps "github.com/sfeir/gourmet/gapps"
 )
 
 var validJSONPFunc = regexp.MustCompile(`(?i)^[a-z_][a-z0-9_.]*$`)
@@ -381,6 +389,8 @@ func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		d = rootData{BasePath: s.cfg.BasePath, GodocURL: s.cfg.GodocURL}
 		t *template.Template
 	)
+	c := appengine.NewContext(r)
+
 	switch p := strings.TrimPrefix(r.URL.Path, s.cfg.BasePath); p {
 	case "/":
 		d.Data = s.docs
@@ -391,6 +401,21 @@ func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	case "/index":
 		d.Data = s.docs
 		t = s.template.index
+	case "/tweet":
+		spreadsheetsID := "1Vk83CXQacadLSBgguE9UJ1_l5_qX072cmy4ieiwh7HU"
+		sheetID := "1373105893"
+		w.Header().Set("Content-type", "text/text; charset=utf-8")
+		yesterday := time.Now().AddDate(0, 0, -1)
+		for i, doc := range s.docs {
+			if yesterday.YearDay() == doc.Time.YearDay() {
+				error := sendTweet(c, spreadsheetsID, sheetID, doc.Title, "http://on-golang.appspot.com"+doc.Path, doc.Tags)
+				if error != nil {
+					http.Error(w, error.Error(), 500)
+				}
+				fmt.Fprintf(w, "%d %s \n", i, doc.Time)
+			}
+		}
+		return
 	case "/feed.atom", "/feeds/posts/default":
 		w.Header().Set("Content-type", "application/atom+xml; charset=utf-8")
 		w.Write(s.atomFeed)
@@ -428,8 +453,35 @@ func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	}
 	err := t.ExecuteTemplate(w, "root", d)
 	if err != nil {
-		log.Println(err)
+		log.Infof(c, "Error")
 	}
+}
+
+func sendTweet(c context.Context, spreadsheetsID string, sheetID string, title string, path string, tags []string) error {
+	sheet, error := gapps.GetSpreadsheet(c, spreadsheetsID, sheetID)
+	if error != nil {
+		return error
+	}
+	log.Infof(c, title)
+	consumerKey := sheet.Table.Rows[1].C[0].V
+	consumerSecret := sheet.Table.Rows[1].C[1].V
+	accessToken := sheet.Table.Rows[1].C[2].V
+	accessTokenSecret := sheet.Table.Rows[1].C[3].V
+
+	tagString := ""
+	for _, tag := range tags {
+		tagString += " #" + tag
+	}
+
+	anaconda.SetConsumerKey(consumerKey)
+	anaconda.SetConsumerSecret(consumerSecret)
+	api := anaconda.NewTwitterApi(accessToken, accessTokenSecret)
+	api.HttpClient.Transport = &urlfetch.Transport{Context: c}
+	_, error = api.PostTweet(title+" "+path+tagString, nil)
+	if error != nil {
+		log.Infof(c, error.Error())
+	}
+	return nil
 }
 
 // docsByTime implements sort.Interface, sorting Docs by their Time field.

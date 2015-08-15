@@ -1,0 +1,4 @@
+cron:
+- description: daily summary job
+  url: /tweet
+  schedule: every day 09:00
