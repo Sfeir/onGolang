@@ -1,0 +1,10 @@
+Tuto : gdb debugger with Go
+17 Aug 2015
+Tags: Beginner, gdb
+
+Didier Girard
+* Summary
+
+Brendan Fosberry : "A number of debuggers exist for Go, some inject code at compile time to support an interactive terminal which negates some of the benefit of using a debugger. The gdb debugger allows you to inspect your compiled binaries, provided they were linked with debug information, without altering the source code. This is quite a powerful feature, since you can pull a build artifact from your deployment pipeline and debug it interactively. This guide will give a quick overview into the basic usage of the gdb debugger for Go applications."
+
+[[http://blog.codeship.com/using-gdb-debugger-with-go/][Using the gdb Debugger with Go]]
