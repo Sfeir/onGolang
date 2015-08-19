@@ -1,0 +1,10 @@
+Moving Average
+19 Aug 2015
+Tags: Beginner, Algorithm
+
+Didier Girard
+* Summary
+
+A good way to learn a new language is to solve basic algorithmic problems. Here is one : how to compute a moving average.
+
+[[https://github.com/RobinUS2/golang-moving-average][Moving average implementation for Go]]
