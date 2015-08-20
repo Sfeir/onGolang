@@ -1,0 +1,10 @@
+Billions of request per day meet Go 1.5
+20 Aug 2015
+Tags: Performance
+
+Didier Girard
+* Summary
+
+Robin Verlangen : "Customer-centric marketing relies on collecting and processing as many relevant events as possible. Customers are everywhere, which means the amount of data is increasing exponentially. The Go language plays a very important role in our data collection technology. Today, FLXone handles 3+ billion requests per day with an in-house developed application."
+
+[[https://medium.com/@robin.verlangen/billions-of-request-per-day-meet-go-1-5-362bfefa0911][Billions of request per day meet Go 1.5]]
