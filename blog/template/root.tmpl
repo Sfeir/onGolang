@@ -73,34 +73,6 @@
 <div id="page">
 <div class="container">
 
-<div id="sidebar">
-	{{with .Doc}}
-		{{with .Newer}}
-			<h4>Next article</h4>
-			<p><a href="{{.Path}}">{{.Title}}</a></p>
-		{{end}}
-		
-		{{with .Older}}
-			<h4>Previous article</h4>
-			<p><a href="{{.Path}}">{{.Title}}</a></p>
-		{{end}}
-	{{end}}
-	
-	<h4>Links</h4>
-	<ul>
-	<li><a href='//golang.org/'>golang.org</a></li>
-	<li><a href='//golang.org/doc/install.html'>Install Go</a></li>
-	<li><a href='//tour.golang.org/'>A Tour of Go</a></li>
-	<li><a href='//golang.org/doc/'>Go Documentation</a></li>
-	<li><a href='//groups.google.com/group/golang-nuts'>Go Mailing List</a></li>
-	<li><a href='//plus.google.com/101406623878176903605'>Go on Google+</a></li>
-	<li><a href='//plus.google.com/112164155169467723645/posts'>Go+ Community</a></li>
-	<li><a href='//twitter.com/golang'>Go on Twitter</a></li>
-	</ul>
-	
-	<p><a href="{{.BasePath}}/index">Blog index</a></p>
-</div><!-- #sidebar -->
-
 <div id="content">
 	<h1><a href="{{.BasePath}}/">onGolang - News on Golang</a></h1>
 	{{template "content" .}}
