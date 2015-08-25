@@ -1,0 +1,16 @@
+Benefits of building with Go
+25 Aug 2015
+Tags: Why
+
+Didier Girard
+* Summary
+
+Go is a really safe choice for a business to build its web application :
+
+- Fast and easy deployment
+- Cross platform support
+- Protected source code
+- Parallel processing (think cloud)
+- Multi-threaded processing
+
+[[https://medium.com/@shift8creative/the-business-benefits-of-building-your-next-project-with-go-ebed4bbc3ed7][The Business Benefits of Building Your Next Project With Go]]
