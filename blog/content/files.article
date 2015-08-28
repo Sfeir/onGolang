@@ -2,6 +2,9 @@ Everything is a File
 28 Aug 2015
 Tags: Tutorial, File
 
+Didier Girard
+* Summary
+
 Go offers easy to use file handling functions that make it a breeze to read and write files. This tutorial covers the basics of file input and output.
 
 [[http://devdungeon.com/content/working-files-go][Working with Files in Go]]
