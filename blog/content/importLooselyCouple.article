@@ -2,6 +2,9 @@ Import Loosely Coupled
 27 Aug 2015
 Tags: Import, Package, Github
 
+Didier Girard
+* Summary
+
 By constraining package import from Github, you create a tight relation between your package and the source location of it. But what happens if you want to move the location of your source code ? Here is a very nice tip that will help you to loosely couple your package and your code location.
 
 [[https://jve.linuxwall.info/blog/index.php?post/2015/08/26/Hosting_Go_code_on_Github_with_custom_import_path][Hosting Go code on Github with a custom import path]]
