@@ -1,0 +1,10 @@
+Go : How to refactor
+31 Aug 2015
+Tags: Tools, Refactoring
+
+Didier Girard
+* Summary
+
+Go language provides many useful tools as part of its development eco system. We will explore most of them in the upcoming blog posts. But in the article lets focus on refactoring tools.
+
+[[http://blog.ralch.com/tutorial/golang-tools-refactoring/][Golang refactoring tools]]
