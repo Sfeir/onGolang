@@ -1,0 +1,10 @@
+Treeder : Docker Based Go Tool
+03 Aug 2015
+Tags: Docker, Tool
+
+Didier Girard
+* Summary
+
+I’ve created a Docker based Go tool, `treeder/go`, that makes developing in Go uber easy. The only thing you need to have installed is Docker.
+
+[[https://medium.com/iron-io-blog/the-easiest-way-to-develop-with-go-introducing-a-docker-based-go-tool-c456238507d6][The Easiest Way to Develop with Go — Introducing a Docker Based Go Tool]]
