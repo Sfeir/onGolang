@@ -1,0 +1,13 @@
+Go Blog powered by Go
+08 Sep 2015
+Tags: Blog, PoweredByGo
+
+Didier Girard
+* Summary
+
+Here is a slideshow that explains how to run a simple blog Go. We have done the same for OnGolang, with some improvements
+- we run the blog on top of AppEngine (using the free quota)
+- we improve the "tags" system
+- we add a cron : "send tweets for yesterday's news"
+
+[[http://go-talks.appspot.com/github.com/genghisjahn/gobloggo/talk.slide#1][Go Blog Go]]
