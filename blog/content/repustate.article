@@ -1,0 +1,10 @@
+From Python to Go :
+11 sep 2015
+Tags: PoweredByGo, Python, Migration
+
+Didier Girard
+* Summary
+
+repustate.com : "We migrated our entire API stack from Python (First Django then Falcon) to Go, reducing the mean response time of an API call from 100ms to 10ms. We reduced the number of EC2 instances required by 85%."
+
+[[http://blog.repustate.com/migrating-entire-api-go-python/][From Python to Go: migrating our entire API]]
