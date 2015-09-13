@@ -1,0 +1,10 @@
+Complex json Handling
+13 sep 2015
+Tags: json, tips
+
+Didier Girard
+* Summary
+
+kotancode.com : "In most samples involving de-serializing a JSON response from some server, you usually see a fixed schema. In other words, you know ahead of time the expected shape of the reply, even if that means you expect some of the fields to be missing or nullable. A common pattern, however, is for an API to return some kind of generic response object as a wrapper around an optional payload."
+
+[[http://www.kotancode.com/2015/09/10/complex-json-handling-in-go/][Complex json Handling in Go]]
