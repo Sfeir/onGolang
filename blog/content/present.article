@@ -1,0 +1,11 @@
+Display your Slides with Go
+13 sep 2015
+Tags: Tools
+
+Didier Girard
+* Summary
+
+Present displays slide presentations and articles. It runs a web server that presents slide and article files from the current directory.
+It may be run as a stand-alone command or an App Engine app.
+
+[[http://godoc.org/golang.org/x/tools/cmd/present][Command present]]
