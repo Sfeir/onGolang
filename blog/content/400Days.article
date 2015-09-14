@@ -1,0 +1,12 @@
+400 Days of Go
+14 sep 2015
+Tags: Feedback
+
+Didier Girard
+* Summary
+
+It’s been 418 days since my first Github commit of Go code. In that time I’ve written a Syslog-to-Kafka producer, a Raft-based distributed SQLite database, a near real-time log search system, and become a core developer of InfluxDB.
+
+So if there is one word to summarize Go, it’s productive.
+
+[[http://www.philipotoole.com/400-days-of-go/][400 Days of Go]]
