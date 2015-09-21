@@ -1,0 +1,14 @@
+Does your GOPATH need an update?
+21 Sep 2015
+Tags:  
+
+Guillaume Laforge
+
+* Summary
+
+Your GOPATH contains lots of useful libraries that you're using in your projects.
+But those libraries evolve: wouldn't it be handy to know if it's the case, so you can upgrade to newever versions?
+The purpose of Go Package Store is to display updates for the Go packages in your GOPATH.
+
+[[https://github.com/shurcooL/Go-Package-Store][Go Package Store]]
+
