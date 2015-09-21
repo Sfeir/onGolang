@@ -1,0 +1,10 @@
+RSS and Atom Client Package
+21 Sep 2015
+Tags: RSS, Tools, Package
+
+Didier Girard
+* Summary
+
+This is a small library for simplifying the parsing of RSS and Atom feeds. It conforms to the RSS 1.0, 2.0, and Atom 1.0 specifications.
+
+[[https://github.com/SlyMarbo/rss][RSS - Golang]]
