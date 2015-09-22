@@ -1,0 +1,15 @@
+Go Kit, a microservices toolkit
+22 Sep 2015
+Tags: Microservices 
+
+Guillaume Laforge
+
+* Summary
+
+Go Kit is a distributed programming toolkit for building microservices in large organizations.
+The goal of the developers of the project is to solve common problems in distributed systems, so developers can focus on their business logic.
+Go Kit provides a circuit breaker, a rate limiter, takes care of logging, metrics, request tracing, and more.
+
+[[https://github.com/go-kit/kit][Go-Kit]]
+
+
