@@ -81,6 +81,9 @@
 </div>
 {{end}}
       
-{{define "link"}}<p class="link"><a href="{{.URL}}" target="_blank">{{style .Label}}</a></p>{{end}}
+{{define "link"}}<p class="link">
+<i class="fa fa-link"></i>&nbsp;
+<a href="{{.URL}}" target="_blank">{{style .Label}}</a></p>
+{{end}}
 
 {{define "html"}}{{.HTML}}{{end}}
