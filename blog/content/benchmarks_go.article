@@ -1,0 +1,15 @@
+Benchmarking in Go
+28 Sep 2015
+Tags: Benchmark
+
+Guillaume Laforge
+
+* Summary
+
+Go's testing support also comes with built-in benchmark capabilities.
+In this article, Alexander Morozov explains how to write benchmarks, tells you what you can actually benchmark, how to set it up, how to make benchmark comparisions, and how to write CPU and memory profiles.
+
+[[http://lk4d4.darth.io/posts/bench/][Go Benchmarks]]
+
+
+
