@@ -1,0 +1,16 @@
+On all the Go Doc tools
+30 Sep 2015
+Tags: Documentation, GoDoc
+
+Guillaume Laforge
+
+* Summary
+
+When we mention GoDoc, do we speak about the Go online documentation, the godoc web server, the go doc subcommand, the godoc.org website, or the Go doc package?
+This article lifts the confusion between the different "go doc" concepts!
+
+[[http://whipperstacker.com/2015/09/30/go-documentation-godoc-godoc-godoc-org-and-go-doc/][All the Go Doc tools]]
+
+
+
+
