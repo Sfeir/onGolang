@@ -1,0 +1,17 @@
+Go Format as a refactoring tool
+1 Oct 2015
+Tags: Refactoring, GoFmt
+
+Guillaume Laforge
+
+* Summary
+
+Compared to more recent langauges, Go might not necessarily have the best IDE tooling available, in particualr in the refactoring area, but there's a nice trick you should know: the gofmt command can let you do certain structural code changes globally on your project. 
+For instance, in this article, Matt Butcher shows how to leverage gofmt to rename a struct project-wide.
+
+[[http://technosophos.com/2015/09/26/quick-go-hack-renaming-structs.html][Quick Go Hack - Renaming Structs]]
+
+
+
+
+
