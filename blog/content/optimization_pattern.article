@@ -1,0 +1,17 @@
+Optimizing your Go code
+3 Oct 2015
+Tags: Optimization, Profiling, Performance 
+
+Guillaume Laforge
+
+* Summary
+
+Once you've developed your Go programs, you might be looking for improving it, for better performance or a lower memory consumption. In this article, Jack Lindamood is looking into patterns for optimizing Go code, by profiling code with pprof, searching for over memory allocation, high CPU usage.
+
+[[http://blog.signalfx.com/a-pattern-for-optimizing-go][A pattern for optimizing Go]]
+
+
+
+
+
+

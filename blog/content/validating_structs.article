@@ -1,0 +1,18 @@
+Validating structs
+7 Oct 2015
+Tags: Structs, Validator 
+
+Guillaume Laforge
+
+* Summary
+
+If you want to validate the contents of your structs, when marshalling and unmarshalling them for instance, you can use this project, Validator, to specify validation rules, such as telling a field should be required, be contained within a certain value range, be a valid hexadecimal color, etc.
+
+[[https://github.com/go-playground/validator][Struct validation]]
+
+
+
+
+
+
+
