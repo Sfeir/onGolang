@@ -1,0 +1,19 @@
+Ten useful techniques in Go
+15 Oct 2015
+Tags: Tips 
+
+Guillaume Laforge
+
+* Summary
+
+Fatih Arslan shares his 10 useful techniques in Go on: using a single GOPATH, wrapping for-select idiom to a function, using tagged literals for struct initializations, splitting struct initialization into multiple lines, adding a String() method for integer const values, starting iota with a +1 increment, returning function calls, conveting data structures into custom types, uwing withContext wrapper functions, and adding setters/getters for map access.
+
+[[https://medium.com/@farslan/ten-useful-techniques-in-go-ddd94296c21b][Ten useful techniques in Go]]
+
+
+
+
+
+
+
+
