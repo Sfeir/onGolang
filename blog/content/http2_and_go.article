@@ -1,0 +1,13 @@
+HTTP/2 and Go
+16 Oct 2015
+Tags: HTTP2, Networking
+
+Guillaume Laforge
+
+* Summary
+
+HTTP/2 is spreading across the web, as we're seeing more and more server using it in favor of the aging HTTP 1.1 variant. HTTP/2 brings various advantages, like reduced payloads, network friendliness, cache pushing, overall performance improvements. In this article, as HTTP/2 is soon going to be included in the next versions of Go, Ian Lewis shows how to create a server and a client interacting with HTTP/2.
+
+[[https://www.ianlewis.org/en/http2-and-go][HTTP/2 and Go]]
+
+
