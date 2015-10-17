@@ -1,0 +1,14 @@
+Introduction to Go for Java developers
+17 Oct 2015
+Tags: Beginner, Tutorial, Presentation
+
+Guillaume Laforge
+
+* Summary
+
+Anton Arhipov, working for ZeroTurnaround, gave a talk introducing the Go programming language to a Java developers audience. Anton goes through a bit of history, then moves on to a quick walkthrough of the various language features, outlining what might seem surprising to developers used to Java. He finishes with a few words about tooling, cross-compilation, testing, and a few useful links.
+
+[[http://fr.slideshare.net/arhan/something-about-golang-53392734][Something about Golang]]
+
+
+
