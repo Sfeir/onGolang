@@ -1,0 +1,16 @@
+Amazon Lambda and Go
+21 Oct 2015
+Tags: Amazon, API
+
+Guillaume Laforge
+
+* Summary
+
+Although Amazon Lambda only supports JavaScript/Node.JS, Java and more recently Python functions, there is a trick, using the Node.JS variant, to be able to run lambda functions programmed in Go, by launching a binary compiled Go program from Node.JS. Let's hope Amazon will consider supporting Go natively at some point in the future!
+
+[[https://medium.com/@shift8creative/go-amazon-lambda-7e95a147cec8#.wtfw879ry][Go & Amazon Lambda]]
+
+
+
+
+
