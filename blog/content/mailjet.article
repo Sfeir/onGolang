@@ -1,0 +1,13 @@
+Sending email
+24 Oct 2015
+Tags: Library,
+
+Didier Girard
+* Summary
+
+MailJet : "Today, we are releasing a new wrapper that will bring Go to your email campaigns. This wrapper will take your asynchronous email operations – like uploading contact lists or sending transactional emails, to a whole new level."
+
+So simple...
+
+[[https://www.mailjet.com/blog/go-go-mailjet/][Go, Go Mailjet]]
+
