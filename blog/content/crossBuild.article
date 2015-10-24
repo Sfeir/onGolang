@@ -1,0 +1,10 @@
+From MacOs to Windows
+24 Oct 2015
+Tags: MacOS, Windows, Build
+
+Didier Girard
+* Summary
+
+Is it possible to build a windows binary on MacOs ? Yes, and it is very simple. In this short video, Francesc Campoy will give you the tips.
+
+[[https://www.youtube.com/watch?v=w0610MoPv3g&feature=youtu.be][Cross Compilation in Go]]
