@@ -1,0 +1,10 @@
+Golang into Azure
+26 Oct 2015
+Tags: Environment, Azure
+
+Florent Legras
+* Summary
+Mark Russinovich, CTO of Microsoft Azure, announced at All Things Open, that Microsoft is adding "experimental support" for Google's open-source Go language, into its Azure cloud service.
+
+[[https://azure.microsoft.com/en-gb/blog/running-go-applications-on-azure-app-service/][Running Go Applications on Azure App Service]]
+
