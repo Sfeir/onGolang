@@ -5,21 +5,115 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width">
-	<meta name="theme-color" content="#375EAB">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#DCF0F8">
 	<title>{{template "title" .}}</title>
-	<link type="text/css" rel="stylesheet" href="/lib/godoc/style.css">
+	<link type="text/css" rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="alternate" type="application/atom+xml" title="blog.golang.org - Atom Feed" href="//blog.golang.org/feed.atom" />
+	<!-- <link rel="alternate" type="application/atom+xml" title="blog.golang.org - Atom Feed" href="//blog.golang.org/feed.atom" /> -->
 	<script type="text/javascript">window.initFuncs = [];</script>
 	<style>
+
+		@viewport {
+			min-height: vh;
+		}
+
+		div {
+			box-sizing: border-box;
+		}
+
+		@media (max-width:800px) {
+			#sidebar {
+				position: fixed;
+				top : 10px;
+				right: 0px;
+			}
+			#sidebar #inner-sidebar {
+				display:none;
+			}
+
+			#heading-goopher{
+				display: none;
+			}
+
+			#side-menu  {
+				display:inline-block;
+			}
+
+			#topbar > .container {
+				background: #DCF0F8;
+				height: 64px;
+				overflow: hidden;
+				content:" ";
+			}
+
+			.top-heading{
+				display: inline-block;
+			}
+		}
+
+		@media (min-width:800px) {
+			#side-menu {
+				display:none;
+				padding:5px;
+			}
+
+			#heading-goopher{
+				display: inline-block;
+				height: 241px;
+				width: 894px;
+				content: " ";
+
+			}
+
+
+			.top-heading{
+				display: none;
+
+			}
+
+			ul.egmenu li:hover { background: #555;  }
+    		ul.egmenu li:hover ul { display: block;  }
+
+			#topbar > .container {
+				background: url("/mascotte-header.png") 0px 0px no-repeat;
+				height: 241px;
+				overflow: hidden;
+				content:" ";
+			}
+		}
+		
+		@media (max-width:400px) {
+			div#footer {
+				font-size: 10px;
+				margin: 20px 0;
+			}
+			ul.egmenu {  height: auto; }
+    		ul.egmenu > li {  float: none; width: 100%; }
+    		ul.egmenu a { line-height: 40px; }
+    		ul.egmenu ul { position: relative; }
+
+		}
+
+		#topbar {
+			background: #DCF0F8;
+/*			position:fixed;
+			top:0px;
+
+			width:100%;*/
+			
+
+		}
+
 		#sidebar {
 			float: right;
 			padding-left: 20px;
 			width: 40%;
+			height: 260px;
 			max-width: 250px;
-			background: #F3F3F3;
-			margin: 20px 0 20px 20px;
+			background: #DCF0F8;
+			margin: 50px 0 20px 20px;
+			overflow: visible;
 		}
 		#sidebar ul {
 			padding: 0;
@@ -27,6 +121,8 @@
 		#sidebar li {
 			list-style-type: none;
 		}
+
+
 		#content .author {
 			font-style: italic;
 		}
@@ -49,37 +145,137 @@
 		#content img {
 			max-width: 100%;
 		}
+
+		.container:after {
+			content:" ";
+			display:block;
+			height: 50px;
+		}
+
+		#footer {
+			bottom: 0px!important;
+			width:100%;
+			background-color: #DCF0F8;
+			margin-bottom: 0px!important;
+/*			margin-top: 122px;*/
+			overflow: visible;
+			height: 90px;
+
+		}
+
+
+		#footer > p {
+			display: block;
+			position:relative;
+			top: -132px;
+			margin: 10px auto 0;
+			padding: 15px 0 0 0;
+		}
+
+		#footer > #peluche {
+			background: url("/peluche.png") 0px 0px no-repeat;
+			position:relative;
+			top:-60px;
+			height:122px;
+			content:" ";
+			max-width: 800px;
+			width:100%;
+			display:block;
+			margin: 10px auto;
+		}
+
+
+
+		#sidebar > #goopher {
+			background: url("/mascotte-menu.png") 0px 0px no-repeat;
+			position:relative;
+			top:-59px;
+			height:122px;
+			content:" ";
+			max-width: 800px;
+			width:100%;
+			display:block;
+			margin: 10px auto;
+		}
+
+		#sidebar > #inner-sidebar {
+			display: block;
+			position:relative;
+			top: -160px;
+			margin: 10px auto 0;
+			padding: 15px 0 0 0;
+		}
+
+		
+
+		
 	</style>
 </head>
 <body>
-
-<div id="topbar"><div class="container">
-
-<div class="top-heading" id="heading-wide"><a href="{{.GodocURL}}/">The Go Programming Language</a></div>
-<div class="top-heading" id="heading-narrow"><a href="{{.GodocURL}}/">Go</a></div>
-<a href="#" id="menu-button"><span id="menu-button-arrow">&#9661;</span></a>
-<form method="GET" action="{{.GodocURL}}/search">
-<div id="menu">
-<a href="{{.GodocURL}}/doc/">Documents</a>
-<a href="{{.GodocURL}}/pkg/">Packages</a>
-<a href="{{.GodocURL}}/project/">The Project</a>
-<a href="{{.GodocURL}}/help/">Help</a>
-<a href="{{.BasePath}}/">Blog</a>
-<input type="text" id="search" name="q" class="inactive" value="Search" placeholder="Search">
+<div id="topbar">
+	<div class="container">
+		<a id="heading-goopher" href="{{.GodocURL}}/"> </a>
+		<div id="side-menu">
+			<h1>
+				<a href="">
+					<span class="fa fa-bars"></span>
+				</a>
+			
+				<a id="heading-wide" href="{{.GodocURL}}/">onGolang The Go Programming Language</a>
+				<a id="heading-narrow" href="{{.GodocURL}}/">onGolang</a>
+			</h1>
+			<!-- <div class="top-heading" > </div>
+			<div class="top-heading" > </div>-->
+		</div>		
+	</div>
 </div>
-</form>
-
-</div></div>
 
 <div id="page">
 <div class="container">
 
+
+<div id="sidebar">
+	<div id="goopher"></div>
+
+	<div id="inner-sidebar">
+		<!-- {{with .Doc}}
+			{{with .Newer}}
+				<h4>Next article</h4>
+				<p><a href="{{.Path}}">{{.Title}}</a></p>
+			{{end}}
+			
+			{{with .Older}}
+				<h4>Previous article</h4>
+				<p><a href="{{.Path}}">{{.Title}}</a></p>
+			{{end}}
+		{{end}} -->
+		<h4>
+		<form method="GET" action="{{.GodocURL}}/search">
+			<input type="text" id="search" name="q" class="inactive" value="Search" placeholder="Search" />
+		</form>
+		</h4>
+		<h4>Links</h4>
+		<ul class="egmenu">
+			<li><a href='//golang.org/'>Documents</a></li>
+			<li><a href='//golang.org/doc/install.html'>Packages</a></li>
+			<li><a href='//tour.golang.org/'>The Projects</a></li>
+			<li><a href='//golang.org/doc/'>Help</a></li>
+			<li><a href='//groups.google.com/group/golang-nuts'>Blog</a></li>
+			<li><a href='//plus.google.com/101406623878176903605'>Archive</a></li>
+			<li><a href='//twitter.com/onGolang'>onGolang on Twitter</a></li>
+		</ul>
+	</div>
+</div><!-- #sidebar -->
+
 <div id="content">
-	<h1><a href="{{.BasePath}}/">onGolang &mdash; News on Golang</a></h1>
+	<!-- <h1><a href="{{.BasePath}}/">onGolang &mdash; News on Golang</a></h1> -->
 	{{template "content" .}}
 </div><!-- #content -->
 
+
+</div><!-- .container -->
 <div id="footer">
+	<div id="peluche"></div>
 	<p>
 	Except as
 	<a href="https://developers.google.com/site-policies#restrictions">noted</a>,
@@ -90,8 +286,6 @@
 	<a href="//www.google.com/intl/en/policies/privacy/">Privacy Policy</a>
 	</p>
 </div><!-- #footer -->
-
-</div><!-- .container -->
 </div><!-- #page -->
 
 </body>

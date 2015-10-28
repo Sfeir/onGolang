@@ -7,6 +7,18 @@ handlers:
 - url: /favicon.ico
   static_files: static/favicon.ico
   upload: static/favicon.ico
+- url: /peluche.png
+  static_files: static/peluche.png
+  upload: static/peluche.png
+- url: /mascotte-header.png
+  static_files: static/mascotte-header.png
+  upload: static/mascotte-header.png
+- url: /mascotte-menu.png
+  static_files: static/mascotte-menu.png
+  upload: static/mascotte-menu.png
+- url: /style.css
+  static_files: static/style.css
+  upload: static/style.css
 - url: /tweet
   script: _go_app
   login: admin

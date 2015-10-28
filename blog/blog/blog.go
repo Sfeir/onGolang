@@ -17,12 +17,12 @@ import (
 	_ "golang.org/x/tools/playground"
 )
 
-const hostname = "blog.golang.org" // default hostname for blog server
+const hostname = "on-golang.appspot.com" // default hostname for blog server
 
 var config = Config{
 	Hostname:     hostname,
 	BaseURL:      "//" + hostname,
-	GodocURL:     "//golang.org",
+	GodocURL:     "//on-golang.appspot.com",
 	HomeArticles: 5,  // articles to display on the home page
 	FeedArticles: 10, // articles to include in Atom and JSON feeds
 	PlayEnabled:  true,
