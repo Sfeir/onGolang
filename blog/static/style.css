@@ -86,7 +86,7 @@ h2 a {
 	font-weight: bold;
 }
 h3 {
-	font-size: 20px;
+	font-size: 26px;
 }
 h3,
 h4 {
@@ -157,6 +157,7 @@ body {
 }
 div#page {
 	width: 100%;
+	margin-top: 30px;
 }
 div#page > .container,
 div#topbar > .container {
