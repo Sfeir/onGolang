@@ -1,0 +1,12 @@
+Write your first Golang app server on Bluemix
+30 Oct 2015
+Tags: BackToBasics, Bluemix
+
+Didier Girard
+* Summary
+
+Jeff Sloyer : "Golang is gaining more and more traction in the tech industry and is a really cool and powerful language. This quick introduction goes over some the benefits of Golang (Go) and explains the steps for building and deploying a Go starter app in Bluemix."
+
+Interesting to see that IBM starts to communicate Golang.
+
+[[https://developer.ibm.com/bluemix/2015/10/28/getting-started-with-golang-on-bluemix/][Write your first Golang app server on Bluemix]]
