@@ -1,0 +1,10 @@
+Massive Image Processing in Go
+30 Oct 2015
+Tags: Image, Service
+
+Didier Girard
+* Summary
+
+Fast HTTP microservice written in Go for high-level image processing backed by bimg and libvips. imaginary can be used as private or public HTTP service for massive image processing. It's almost dependency-free and only uses net/http native package for better performance.
+
+[[https://github.com/h2non/imaginary][Imaginary]]
