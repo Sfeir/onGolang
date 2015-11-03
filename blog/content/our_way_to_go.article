@@ -1,0 +1,16 @@
+DailyMotion's way to Go
+3 Nov 2015
+Tags: Logging, Instrumentation, Web, Microservices
+
+Guillaume Laforge
+
+* Summary
+
+In this article on DailyMotion's engineering blog, Founder and CTO, Olivier Poitrey, goes over their Go journey, citing their various tries with web frameworks, the problems with sharing contexts between them, with concerns about logging and instrumentation. Olivier also talks about Go-Kit (the micro-services toolkit) as well as Open Source libraries they've developed along the way, that are net/context friendly.
+
+[[http://engineering.dailymotion.com/our-way-to-go/][Our way to Go]]
+
+
+
+
+
