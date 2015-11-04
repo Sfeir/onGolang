@@ -1,0 +1,17 @@
+Why Go was the right choice for CockroachDB
+4 Nov 2015
+Tags: CockroachDB, Database, NoSQL
+
+Guillaume Laforge
+
+* Summary
+
+Jessica Edwards of Cockroach Labs explains why the company decided to go with Go for implementing the highly resilient CockroachDB datastore. In particular, Go was easy to pick up for all developers, and simpler to work with than C++. Furthermore, composability was easier to attain than with Java, and automatic memory handling was nice compared to manual memory management with C++. Last but not least: a low memory footprint, and the concurrency primitives were nice bonuses.
+
+[[http://www.cockroachlabs.com/blog/why-go-was-the-right-choice-for-cockroachdb/][Why Go Was the Right Choice for CockroachDB]]
+
+
+
+
+
+
