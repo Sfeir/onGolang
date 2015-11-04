@@ -1,0 +1,19 @@
+Why Go is a poorly designed language
+5 Nov 2015
+Tags: Design
+
+Guillaume Laforge
+
+* Summary
+
+A catchy title from an actual lover of the Go programming language.
+Ilya Kowalewski lists what he assumes to be odd language and API design decisions: 
+like odd slice manipulation, nil interfaces not always being nil, struct slices vs interface slices, odd range by value loops, compiler rigidity, quirky code generation.
+However, in spite of his criticism, he actually does love Go!
+
+[[https://medium.com/@tucnak/why-go-is-a-poorly-designed-language-1cc04e5daf2#.kdcgv8yd3][Why Go is a poorly designed language]]
+
+
+
+
+
