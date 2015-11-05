@@ -1,0 +1,15 @@
+Dave Cheney on logging
+5 Nov 2015
+Tags: Logging
+
+Guillaume Laforge
+
+* Summary
+
+Dave Cheney shares his thoughts on logging.
+The built-ing logging facility can be considered a bit poor compared to other languages, as for instance, it doesn't provide different logging levels. 
+Dave mentions a few alternative logging, clearly inspired by other languages or platforms.
+But actually, Dave posits that those more advanced logging libraries are actually doing too much, and don't necessarily lead developers towards good logging practices.
+Dave believes that developers should only log what they care about when developing or debugging software, and logging things users care abour when using your software.
+
+[[http://dave.cheney.net/2015/11/05/lets-talk-about-logging][Let’s talk about logging]]
