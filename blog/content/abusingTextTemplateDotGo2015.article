@@ -1,0 +1,10 @@
+Abusing text/template for data transformation
+09 Nov 2015
+Tags: slidedeck, dotGo2015
+
+Didier Girard
+* Summary
+
+Arnaud Porterie : "This slide deck describes how we relied on a modified version of the standard `text/template` package to support arbitrary data transformations."
+
+[[http://www.slideshare.net/icecrime/abusing-texttemplate-for-data-transformation][Abusing text/template]]
