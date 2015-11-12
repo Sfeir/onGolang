@@ -1,0 +1,10 @@
+My Go IDE in a Container
+12 Nov 2015
+Tags: IDE
+
+Didier Girard
+* Summary
+
+Ray Tsang : "As I was setting up Vim-Go, I was a little concerned about installing a bunch of plugins and components on my laptop that I would later need to re-install if I moved to another environment ...Rather than toiling through a similar process with my Vim-based IDE, I thought maybe I could build the entire thing in a container image."
+
+[[https://medium.com/google-cloud/my-ide-in-a-container-49d4f177de][My Go IDE in a Container]]
