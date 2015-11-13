@@ -1,0 +1,12 @@
+HTTP/2 support coming in Go 1.6
+9 Nov 2015
+Tags: HTTP/2, Networking
+
+Guillaume Laforge
+
+* Summary
+
+At dotGo 2015, in Paris, Brad Fitzpatrick presented the upcoming support of HTTP/2, which is slated for Go 1.6, based on the [[https://godoc.org/golang.org/x/net/http2][golang.org/x/net/http2]] code base. Brad encouraged developers to try out this support, to get it ready for Go 1.6 which should arrive in 3 months from now.
+
+[[https://docs.google.com/presentation/d/1TXVAtW7zzmmCZ8e1mL2y5e8OUudma1BtZlDbNqRxWIE/view?pli=1#slide=id.g9c758ab0f_0_0][HTTP/2 in Go 1.6]]
+

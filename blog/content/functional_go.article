@@ -1,0 +1,20 @@
+Go Functional
+11 Nov 2015
+Tags: Functional
+
+Guillaume Laforge
+
+* Summary
+
+At the dotGo conference in Paris, Francesc Campoy presented about how to make Go adopt some functional programming paradigm. 
+
+After a quick introduction to functional programming, a word about performance vs ease of use, Francesc goes on to explore how to implement some common functional primitives, such as map(). 
+
+With the lack of generics in Go, developers have to code against interfaces, rely on reflection, and Francesc even does a little interlude in Haskel along the way, and explains the concept of functors.
+
+In conclusion, making Go functional is doable, but not necessarily in a performant way, and perhaps at the cost of not being very Go idiomatic.
+
+[[https://speakerdeck.com/campoy/functional-go][https://speakerdeck.com/campoy/functional-go]]
+
+
+

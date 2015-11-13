@@ -1,0 +1,16 @@
+Go turns 6 today!
+10 Nov 2015
+Tags: Birthday
+
+Guillaume Laforge
+
+* Summary
+
+This is a very special day today, as it's the official 6th year birthday for the Go programming language! All the indicators are in the green: number of contributors, commits, Go repositories around, Go related events and conferences.
+On the Go blog, Andrew Gerrand comes back on what happened this past year, and what's coming soon in Go 1.6 with compiler optimizations, the [[http2_in_go16][HTTP/2 support]], the vendoring mechanism, and more.
+
+Happy Birthday Golang!
+
+[[http://blog.golang.org/6years][Six years of Go]]
+
+
