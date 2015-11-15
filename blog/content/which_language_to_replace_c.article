@@ -1,0 +1,16 @@
+Which language has the brightest future in replacement of C between D, Go and Rust
+16 Nov 2015
+Tags: Opinion
+
+Guillaume Laforge
+
+* Summary
+
+On Quora, a user asked the question to know which language had the brightest future as a replacement for C, between D, Go and Rust. Andrei Alexandrescu, the D language architect gave an honest reply, contrasting all three languages.
+
+For Go, in the downsides, Andrei mentions the cost of indirect calls and garbage collection, the rigid policy around certain topics like generics, or the fact Go might be a too simplistic language.
+
+However, on the positive sides, he mentions Go found its niche of networking services, that it has a solid engineering team behind it, and the Google brand is also a strong advantage.
+
+[[https://www.quora.com/Which-language-has-the-brightest-future-in-replacement-of-C-between-D-Go-and-Rust-And-Why/answer/Andrei-Alexandrescu?share=1][Which language has the brightest future in replacement of C between D, Go and Rust? And Why?]]
+
