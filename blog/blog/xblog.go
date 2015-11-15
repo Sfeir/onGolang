@@ -472,7 +472,11 @@ func sendTweet(c context.Context, spreadsheetsID string, sheetID string, title s
 
 	tagString := ""
 	for _, tag := range tags {
-		tagString += " #" + tag
+		if strings.HasPrefix(tag, "@") {
+			tagString += " " + tag
+		} else {
+			tagString += " #" + tag
+		}
 	}
 
 	anaconda.SetConsumerKey(consumerKey)
