@@ -203,12 +203,14 @@ func (s *Server) loadDocs(root string) error {
 		}
 		p = p[len(root) : len(p)-len(ext)] // trim root and extension
 		p = filepath.ToSlash(p)
-		s.docs = append(s.docs, &Doc{
-			Doc:       d,
-			Path:      s.cfg.BasePath + p,
-			Permalink: s.cfg.BaseURL + p,
-			HTML:      template.HTML(html.String()),
-		})
+		if d.Time.Before(time.Now()) {
+			s.docs = append(s.docs, &Doc{
+				Doc:       d,
+				Path:      s.cfg.BasePath + p,
+				Permalink: s.cfg.BaseURL + p,
+				HTML:      template.HTML(html.String()),
+			})
+		}
 		return nil
 	}
 	err := filepath.Walk(root, fn)
