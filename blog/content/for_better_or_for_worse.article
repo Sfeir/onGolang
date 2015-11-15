@@ -1,0 +1,17 @@
+On the design quality of Golang
+15 Nov 2015
+Tags: LanguageDesign
+
+Guillaume Laforge
+
+* Summary
+
+Jason Moiron writes the design quality of Go, how its simplicity might actually be its best asset, in the sense that it makes the language easy to learn, master, and makes code contributions easier too.
+Although more "advanced" programming languages might make certain categories of bugs impossible to write, the added complexity of the language can induce more cognitive burden which might make it harder to find more complex bugs, as the code is more complex to decypher.
+
+[[http://jmoiron.net/blog/for-better-or-for-worse/][For Better or For Worse]]
+
+
+
+
+
