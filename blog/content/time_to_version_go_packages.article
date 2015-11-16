@@ -1,0 +1,17 @@
+It's time to version your Go packages
+18 Nov 2015
+Tags: Versioning, @mattfarina
+
+Guillaume Laforge
+
+* Summary
+
+Go developers are used to rely on whichever version of the packages they've go-get'ed, but more and more, for building reliably and repeatedly software, it's important to stick to a known stable version, particularly as the number of dependencies in your projects is growing.
+
+Relying on a Github hash is pretty opaque, certain packages you depend on might expect different version of the same packages, and finding back the right version that works for your project might be a tedious task once you notice a newer version just won't work with your project.
+
+After explaining the rationale and problems, Matt Farina analyzes the current state of versioning of common package. He then mentions useful tools for dealing with package versioning, such as gopkg.in, glide or gb-vendor.
+
+Matt concludes the article with advice to use proper semantic versioning for Go packages.
+
+[[http://engineeredweb.com/blog/2015/go-packages-need-release-versions/][Why It's Time For Go Packages To Start Versioning]]
