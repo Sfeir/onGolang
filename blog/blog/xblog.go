@@ -203,7 +203,10 @@ func (s *Server) loadDocs(root string) error {
 		}
 		p = p[len(root) : len(p)-len(ext)] // trim root and extension
 		p = filepath.ToSlash(p)
-		if d.Time.Before(time.Now()) {
+
+		// article time is at 11am by default if no time is provided
+		// remove one hour so that the article is online when the cron job is triggered at 11am
+		if d.Time.Add(-time.Hour).Before(time.Now()) {
 			s.docs = append(s.docs, &Doc{
 				Doc:       d,
 				Path:      s.cfg.BasePath + p,
