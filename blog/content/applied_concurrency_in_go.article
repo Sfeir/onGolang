@@ -1,0 +1,13 @@
+Applied concurrency in Go
+19 Nov 2015
+Tags: DotGo, Concurrency, GoRoutines
+
+Guillaume Laforge
+
+* Summary
+
+At the dotGo conference in Paris in earlier this month, Matt Aimonetti talked about applied concurrency in Go.
+
+As the abstract states: "Go makes concurrency & parallelism easier, but you still need to learn a few new idioms. This talk shows how to write proper concurrent code in Go by showing you common mistakes."
+
+[[https://speakerdeck.com/matt_aimonetti/applied-concurrency-in-go][Applied concurrency in Go]]
