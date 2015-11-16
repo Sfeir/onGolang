@@ -1,0 +1,20 @@
+The future legacy of Go by Dave Cheney
+17 Nov 2015
+Tags: @davecheney
+
+Guillaume Laforge
+
+* Summary
+
+Go is still a pretty young language, but Dave Cheney is opening the question on how Go will be remembered.
+
+Dave gives examples of well known languages and frameworks, highlighting what they brought to the programming world, and interesting parallels with pop culture and denim jeans!
+
+The key takeaway of this reflection is that what really makes Go stand out of the crowd are its opinionated way of formatting code with gofmt ending any debate on code layout, its interfaces which mandate composition over inheritance, and goroutines to go away with error-prone thread management.
+
+[[http://dave.cheney.net/2015/11/15/the-legacy-of-go][The Legacy of Go]]
+
+
+
+
+
