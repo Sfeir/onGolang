@@ -407,15 +407,13 @@ func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		d.Data = s.docs
 		t = s.template.index
 	case "/tweet":
-		spreadsheetsID := "1Vk83CXQacadLSBgguE9UJ1_l5_qX072cmy4ieiwh7HU"
-		sheetID := "1373105893"
 		w.Header().Set("Content-type", "text/text; charset=utf-8")
 		yesterday := time.Now().AddDate(0, 0, -1)
 		for i, doc := range s.docs {
 			if yesterday.YearDay() == doc.Time.YearDay() {
-				error := sendTweet(c, spreadsheetsID, sheetID, doc.Title, "http://on-golang.appspot.com"+doc.Path, doc.Tags)
-				if error != nil {
-					http.Error(w, error.Error(), 500)
+				err := sendTweet(c, doc.Title, "http://on-golang.appspot.com"+doc.Path, doc.Tags)
+				if err != nil {
+					http.Error(w, err.Error(), 500)
 				}
 				fmt.Fprintf(w, "%d %s \n", i, doc.Time)
 			}
@@ -462,10 +460,12 @@ func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func sendTweet(c context.Context, spreadsheetsID string, sheetID string, title string, path string, tags []string) error {
-	sheet, error := gapps.GetSpreadsheet(c, spreadsheetsID, sheetID)
-	if error != nil {
-		return error
+func sendTweet(c context.Context, title string, path string, tags []string) error {
+	spreadsheetsID := "1Vk83CXQacadLSBgguE9UJ1_l5_qX072cmy4ieiwh7HU"
+	sheetID := "1373105893"
+	sheet, err := gapps.GetSpreadsheet(c, spreadsheetsID, sheetID)
+	if err != nil {
+		return err
 	}
 	log.Infof(c, title)
 	consumerKey := sheet.Table.Rows[1].C[0].V
@@ -486,9 +486,9 @@ func sendTweet(c context.Context, spreadsheetsID string, sheetID string, title s
 	anaconda.SetConsumerSecret(consumerSecret)
 	api := anaconda.NewTwitterApi(accessToken, accessTokenSecret)
 	api.HttpClient.Transport = &urlfetch.Transport{Context: c}
-	_, error = api.PostTweet(title+" "+path+tagString, nil)
-	if error != nil {
-		log.Infof(c, error.Error())
+	_, err = api.PostTweet(title+" "+path+tagString, nil)
+	if err != nil {
+		log.Infof(c, err.Error())
 	}
 	return nil
 }
