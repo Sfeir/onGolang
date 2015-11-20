@@ -1,0 +1,12 @@
+Interview of Donovan and Kernighan
+20 Nov 2015
+Tags: Book, Interview, Kernighan
+
+Guillaume Laforge
+
+* Summary
+
+Following up the release of their Go Programming Language book, Alan Donovan and Brian Kernighan answered a Q&A session on Slashdot.
+They answered questions on Go's issues interfacing with some C libraried because of lack of thread-local storage, on package versioning, on error handling, on the types of projects Go is well suited for, and more.
+
+[[http://features.slashdot.org/story/15/11/18/1748247/interviews-alan-donovan-and-brian-kernighan-answer-your-questions][Interview: Alan Donovan and Brian Kernighan Answer Your Questions]]
