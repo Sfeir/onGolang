@@ -1,0 +1,17 @@
+A tutorial on developing a Go app with a MongoDB database
+21 Nov 2015
+Tags: MongoDB, Beginner, Tutorial, @matryer
+
+Guillaume Laforge
+
+* Summary
+
+In this article, Mat Ryer goes through the various detailed steps to setup a Go web app project, with a MongoDB datastore:
+
+How to setup everything, get started with the main method, defining the middleware, adding routing, setting up the handler, then interacting with data (inserting & reading), and finally running and testing the app.
+
+The tutorial then proposes a few more exercises you can do to follow up.
+
+Overall, that's a nice idea to propose an extensive tutorial, detailing the various steps.
+
+[[https://medium.com/@matryer/production-ready-mongodb-in-go-for-beginners-ef6717a77219#.y43bpq6ae][Production ready MongoDB in Go (for beginners) ]]
