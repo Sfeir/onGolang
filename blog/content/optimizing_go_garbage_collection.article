@@ -1,0 +1,12 @@
+How to optimize garbage collection in Go
+26 Nov 2015
+Tags: Optimization, GarbageCollection, Performance, @cockroachdb
+
+Guillaume Laforge
+
+* Summary
+
+Jessica Edwards of [[http://www.cockroachlabs.com/][CockroachDB]] writes about how to optimize Go's garbage collection.
+In this article, she details techniques to minimize memory allocation thanks to a clever use of structs, how to use arrays & slices, or avoiding using Google's own Protobuf implementation but a fork which is more memory efficient.
+
+[[http://www.cockroachlabs.com/blog/how-to-optimize-garbage-collection-in-go/][How to Optimize Garbage Collection in Go]]
