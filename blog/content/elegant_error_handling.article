@@ -1,0 +1,14 @@
+Elegant error handling
+24 Nov 2015
+Tags: ErrorHandling, @davidnix_
+
+Guillaume Laforge
+
+* Summary
+
+Coming from other languages, developers often complain about Go's error handling, for being verbose, or because it's pretty much mandatory to handle the error on spot (even if that means ignoring it or just returning it right away)
+
+In this article, David Nix compares and contrasts Go's error handling with error or exception handling in other languages, like Java and Swift, demonstrating that ultimately, Go's error handling is actually not that bad at all, and could even be considered to be elegant.
+Forcing developers to indeed handle errors would only make the code more robust anyway.
+
+[[https://davidnix.io/post/error-handling-in-go/][Go's Error Handling is Elegant]]
