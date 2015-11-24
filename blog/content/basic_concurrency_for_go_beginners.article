@@ -1,0 +1,13 @@
+Basic concurrency for Go beginners
+27 Nov 2015
+Tags: GoRoutine, Concurrency, Beginner, Tutorial, @matryer
+
+Guillaume Laforge
+
+* Summary
+
+Mat Ryer offers a gentle introduction to Go concurrency thanks to goroutines.
+Using the go function to launch a goroutine has one gotcha, which is that the program terminates without waiting for goroutines to finish.
+Mat then shows the use of WaitGroups, from the sync package, to wait for the end of tasks before finishing a program.
+
+[[https://medium.com/@matryer/very-basic-concurrency-for-beginners-in-go-663e63c6ba07#.2sm3gkmr4][Very basic concurrency for beginners in Go]]
