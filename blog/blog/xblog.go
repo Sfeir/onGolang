@@ -281,7 +281,7 @@ func (s *Server) renderAtomFeed() error {
 	}
 	feed := atom.Feed{
 		Title:   s.cfg.FeedTitle,
-		ID:      "tag:" + s.cfg.Hostname + ",2013:" + s.cfg.Hostname,
+		ID:      "tag:" + s.cfg.Hostname + ",2015:" + s.cfg.Hostname,
 		Updated: atom.Time(updated),
 		Link: []atom.Link{{
 			Rel:  "self",
