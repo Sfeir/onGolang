@@ -1,0 +1,21 @@
+Tools for working with Go code
+25 Nov 2015
+Tags: Tools, DotGo, @ftharsln
+
+Guillaume Laforge
+
+* Summary
+
+At the dotGo conference in Paris earlier this month, [[https://twitter.com/ftharsln][Fatih Arslan]] talked about tools for working with Go code.
+
+Fatih starts by citing Rob Pike about the fact that Go was designed to make tools easy to write.
+
+And indeed, he goes through a list of Go tools for formatting (Gofmt, goimports), navigation & insight (godef, godegraph, oracle), refactoring (gorename, gomvpkg), code generation (stringer, impl), linters & checkers (go vet, gometalinter), testing & benchmarking (benchcmp), distribution & dependency management, and IDE support.
+
+Abstract of the talk:
+
+_Go_tools_are_special._Go_was_designed_from_the_beginning_to_make_tools_easy_to_write._This_caused_the_Go_ecosystem_to_have_dozens_of_well_built_tools,_such_as_formatters,_refactoring_tools,_code_generators,_navigators,_and_so_on._
+
+_This_talk_highlight_some_of_the_best_and_most_used_tools_and_show_how_to_use_them_from_an_editor._
+
+[[https://speakerdeck.com/farslan/tools-for-working-with-go-code][Tools for working with Go Code]]
