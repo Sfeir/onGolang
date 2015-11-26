@@ -206,7 +206,7 @@ func (s *Server) loadDocs(root string) error {
 
 		// article time is at 11am by default if no time is provided
 		// remove one hour so that the article is online when the cron job is triggered at 11am
-		if d.Time.Add(-time.Hour).Before(time.Now()) {
+		if d.Time.Add(-time.Hour).Before(time.Now()) || appengine.IsDevAppServer() {
 			s.docs = append(s.docs, &Doc{
 				Doc:       d,
 				Path:      s.cfg.BasePath + p,
