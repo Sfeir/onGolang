@@ -1,0 +1,16 @@
+Go's runtime environment variables
+1 Dec 2015
+Tags: Runtime, Environment, @davecheney
+
+Guillaume Laforge
+
+* Summary
+
+Dave Cheney offers a tour of the most useful and interesting environment variables which affect your Go programs:
+
+- GOGC: for tweaking the garbage collection frequency
+- GOTRACEBACK: to control the level of details of panic errors
+- GOMAXPROCS: to specify the number of operating system threads allocated to goroutines in your program
+- GODEBUG: for specifying certain handy debug traces
+
+[[http://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables][A whirlwind tour of Go’s runtime environment variables]]
