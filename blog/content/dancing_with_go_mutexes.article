@@ -1,0 +1,13 @@
+Dancing with Go mutexes
+2 Dec 2015
+Tags: Mutex, Concurrency, @deckarep
+
+Guillaume Laforge
+
+* Summary
+
+Ralph Caraveo authored an advanced article on Go's mutexes.
+When is it a good idea to use an explicit mutex vs relying on channels? How to properly use a mutex?
+Ralph shares valuable advice on the topic. If you're planning to use a mutex, you should start with this article.
+
+[[https://medium.com/@deckarep/dancing-with-go-s-mutexes-92407ae927bf#.p1t9y5iiu][Dancing with Go’s Mutexes]]
