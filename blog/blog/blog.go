@@ -6,11 +6,6 @@
 // as a stand-alone HTTP server.
 package main
 
-import (
-	"net/http"
-	_ "golang.org/x/tools/playground"
-)
-
 const hostname = "on-golang.appspot.com" // default hostname for blog server
 
 var config = Config{
@@ -23,12 +18,3 @@ var config = Config{
 	FeedTitle:    "OnGolang - Regular news about the Go programming language",
 }
 
-func init() {
-	// Redirect "/blog/" to "/", because the menu bar link is to "/blog/"
-	// but we're serving from the root.
-	redirect := func(w http.ResponseWriter, r *http.Request) {
-		http.Redirect(w, r, "/", http.StatusFound)
-	}
-	http.HandleFunc("/blog", redirect)
-	http.HandleFunc("/blog/", redirect)
-}
