@@ -8,12 +8,6 @@ package main
 
 import (
 	"net/http"
-	"strings"
-	"time"
-
-	//	"golang.org/x/tools/blog"
-	"golang.org/x/tools/godoc/static"
-
 	_ "golang.org/x/tools/playground"
 )
 
@@ -26,7 +20,7 @@ var config = Config{
 	HomeArticles: 5,  // articles to display on the home page
 	FeedArticles: 10, // articles to include in Atom and JSON feeds
 	PlayEnabled:  true,
-	FeedTitle:    "The Go Programming Language Blog",
+	FeedTitle:    "OnGolang - Regular news about the Go programming language",
 }
 
 func init() {
@@ -37,16 +31,4 @@ func init() {
 	}
 	http.HandleFunc("/blog", redirect)
 	http.HandleFunc("/blog/", redirect)
-
-	http.Handle("/lib/godoc/", http.StripPrefix("/lib/godoc/", http.HandlerFunc(staticHandler)))
-}
-
-func staticHandler(w http.ResponseWriter, r *http.Request) {
-	name := r.URL.Path
-	b, ok := static.Files[name]
-	if !ok {
-		http.NotFound(w, r)
-		return
-	}
-	http.ServeContent(w, r, name, time.Time{}, strings.NewReader(b))
 }
