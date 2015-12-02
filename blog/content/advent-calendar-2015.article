@@ -1,0 +1,13 @@
+Gopher Academy Advent Calendar
+3 Dec 2015
+Tags: Advent, Calendar, @mattfarina, @gopheracademy
+
+Guillaume Laforge
+
+* Summary
+
+A great initiative from the [[https://gopheracademy.com/][Gopher academy]] who's running its third Advent calendar.
+Each day, you'll get a new article on Go.
+The first day started with an [[https://blog.gopheracademy.com/advent-2015/introduction/][introduction]] for this year's calendar. But today, there's an article on [[https://blog.gopheracademy.com/advent-2015/semver/][working with semantic versions]] by Matt Farina, using the [[https://github.com/Masterminds/semver][github.com/Masterminds/semver]] library.
+
+[[https://blog.gopheracademy.com/series/advent-2015/][Gopher Academy Advent 2015 calendar]]
