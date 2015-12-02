@@ -1,0 +1,17 @@
+Simplicity is complicated
+4 Dec 2015
+Tags: DotGo, Design, @rob_pike
+
+Guillaume Laforge
+
+* Summary
+
+Rob Pike was closing the dotGo conference in Paris with a talk on what made Go successful.
+Rather than focusing on the nice aspects of the language (goroutines, channels, speed of compilation & execution, etc),
+Rob argues that what makes Go stand out is actually its simplicity, but that simplicity is actually hard to achieve!
+
+_Go_is_often_described_as_a_simple_language._It_is_not,_it_just_seems_that_way._Rob_explains_how_Go's_simplicity_hides_a_great_deal_of_complexity,_and_that_both_the_simplicity_and_complexity_are_part_of_the_design._
+
+You can watch the video and look at the slides linked below.
+
+[[http://www.thedotpost.com/2015/11/rob-pike-simplicity-is-complicated][Simplicity is complicated]]
