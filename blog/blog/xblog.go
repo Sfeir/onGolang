@@ -490,6 +490,7 @@ func sendTweet(c context.Context, title string, path string, tags []string) erro
 	if err != nil {
 		log.Infof(c, err.Error())
 	}
+
 	return nil
 }
 
