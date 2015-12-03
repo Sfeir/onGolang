@@ -1,0 +1,13 @@
+Debugging Go programs with Delve
+4 Dec 2015
+Tags: Debugger, Delve, @DerkTheDaring, Advent, @gopheracademy
+
+Guillaume Laforge
+
+* Summary
+
+With the Advent calendar from [[https://blog.gopheracademy.com/][GopherAcademy]], there's always a new interesting blog post lurking around day after day! And today, [[https://twitter.com/DerkTheDaring][Derek Parker]] is talking about the [[https://www.github.com/derekparker/delve][Delve]] debugger to debug your Go programs, explaining how to set it up, to de set breakpoints, or to evaluate expressions.
+
+[[https://github.com/Microsoft/vscode-go][Microsoft VSCode's go extension]] even comes with support for Delve.
+
+[[https://blog.gopheracademy.com/advent-2015/debugging-with-delve/][Debugging Go programs with Delve]]
