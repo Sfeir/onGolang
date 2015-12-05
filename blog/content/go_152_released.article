@@ -1,0 +1,12 @@
+Go 1.5.2 bug fix release
+5 Dec 2015
+Tags: Release
+
+Guillaume Laforge
+
+* Summary
+
+Go 1.5.2 is released.
+This minor version is essentially a bug fix release, with bug fixes to the compiler, linker, and themime/multipart, net, and runtime packages.
+
+[[https://github.com/golang/go/issues?q=milestone%3AGo1.5.2][Go 1.5.2 changelog]]
