@@ -1,0 +1,15 @@
+From Sawzall to Go
+6 Dec 2015
+Tags: Sawzall, DSL, Adoption
+
+Didier Girard
+* Summary
+
+A few years ago, Google Datascientists were using Sawzall, a DSL used 
+to process large numbers of individual log records. Most of them have now
+switch to Go.
+
+[[http://www.unofficialgoogledatascience.com/2015/12/replacing-sawzall-case-study-in-domain.html?m=1][Replacing Sawzall — a case study in domain-specific language migration]]
+
+[[https://en.wikipedia.org/wiki/Sawzall_(programming_language)][Sawzall (wikipedia)]]
+
