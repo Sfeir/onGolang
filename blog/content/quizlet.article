@@ -1,4 +1,4 @@
-Quizlet : Bigdata et Go
+Quizlet : Bigdata, Go and 287 million events/day
 08 Dec 2015
 Tags: BigData, Quizlet, Biquery, @awinograd
 
@@ -9,4 +9,6 @@ Alec Winograd : "We wanted to start moving away from infrastructure utilities wr
 in Python and Bash. While we wanted to move away from both due to lack of strong types,
 Bash in particular has caused numerous headaches due to its odd edge-cases. Overall,
 we're glad we picked Go. It's an extremely easy language to pick up in large part due
-to its excellent documentation and just as easy to deploy with a single compiled binary." 
+to its excellent documentation and just as easy to deploy with a single compiled binary."
+
+[[https://quizlet.com/blog/287-million-events-per-day-and-1-engineer-how-i-built-quizlets-data-pipeline-with-bigquery-and-go][287 million events/day and 1 engineer: How I built Quizlet's data pipeline with BigQuery and Go]] 
