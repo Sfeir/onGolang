@@ -1,0 +1,12 @@
+Quizlet : Bigdata et Go
+08 Dec 2015
+Tags: BigData, Quizlet, Biquery, @awinograd
+
+Didier Girard
+* Summary
+
+Alec Winograd : "We wanted to start moving away from infrastructure utilities written
+in Python and Bash. While we wanted to move away from both due to lack of strong types,
+Bash in particular has caused numerous headaches due to its odd edge-cases. Overall,
+we're glad we picked Go. It's an extremely easy language to pick up in large part due
+to its excellent documentation and just as easy to deploy with a single compiled binary." 
