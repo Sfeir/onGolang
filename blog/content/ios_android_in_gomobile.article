@@ -1,0 +1,11 @@
+iOS and Android Programming with Go
+10 Dec 2015
+Tags: Mobile, iOS, Android, @ChrisChinch
+
+Florent Legras
+* Summary
+
+Go has gained a lot of interest over the years and the number of bigger name projects utilizing the language is growing rapidly. 
+With 1.5, Go supports the native compilation for Android and iOS platforms. In this article we see how to use Go in mobile applications.
+
+[[http://www.sitepoint.com/ios-and-android-programming-with-go/][iOS and Android Programming with Go]] 
