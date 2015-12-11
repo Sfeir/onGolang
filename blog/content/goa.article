@@ -1,0 +1,13 @@
+goa: Untangling Microservices
+11 Dec 2015
+Tags: REST, @gopheracademy, @rgsimon
+
+Didier Girard
+* Summary
+
+Raphael Simon : "goa lets you write the specification of your API in code. It then uses that code
+to produce a number of outputs including HTTP handlers that take care of validating
+the incoming requests. This means that the specification is translated automatically
+into the implementation, what got reviewed is what is implemented."
+
+[[https://blog.gopheracademy.com/advent-2015/goaUntanglingMicroservices/][]]
