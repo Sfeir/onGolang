@@ -1,0 +1,19 @@
+Glide 0.8 released featuring reproducible builds
+17 Dec 2015
+Tags: Glide, DependencyManagement, @technosophos
+
+Guillaume Laforge
+
+* Summary
+
+Matt Butcher announced the release of [[https://github.com/Masterminds/glide][Glide]] 0.8, the vendor package management tool for Go.
+
+Glide 0.8 learns from other languages and platforms, and now takes the sane position of fixing library dependencies,
+using [[http://semver.org/][semantic versioning]] when available, or letting you pin a particular tag or commit hash.
+
+The goal of this new approach is to ensure reproducible builds,
+rather than always relying on the more brittle approach of building on the latest available code base.
+
+This new version also takes advantage of Go 1.5's vendoring system.
+
+[[http://technosophos.com/2015/12/11/why-glide-0-8-is-our-biggest-release.html][http://technosophos.com/2015/12/11/why-glide-0-8-is-our-biggest-release.html]]
