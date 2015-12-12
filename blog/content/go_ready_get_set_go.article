@@ -1,0 +1,24 @@
+Go ready, get set, go!
+15 Dec 2015
+Tags: Beginner, Tutorial, @manningbooks, @nathany
+
+Guillaume Laforge
+
+* Summary
+
+Nathan Youngman, the author of the upcoming book entitled
+"[[https://manning.com/books/learn-go?a_aid=nathany&a_bid=53f68821][Learn Go: a beginner's guide to Go]]",
+has published online an excerpt of the book, published by Manning.
+
+This excerpt goes through
+
+- introducing the Go playground
+- packages and functions
+- performing calculations
+- constants and variables
+- using random numbers
+- for loops
+- comparisons with if and switch
+- formatted print
+
+[[https://nathany.com/learn-go/][Get ready, get set, Go]]
