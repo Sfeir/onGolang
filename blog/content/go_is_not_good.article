@@ -1,0 +1,31 @@
+Go is not good: what people complain about
+13 Dec 2015
+Tags: @m_ksimka
+
+Guillaume Laforge
+
+* Summary
+
+An interesting study by Maksim Kochkin to list all articles complaining about Go.
+
+The effort is not so much about criticizing the language
+as it is to have a better understanding of what people often miss or are finding inconvenient.
+No language is perfect, and it's good to know where you might have to work around syntax quirks,
+where you'll want to find a useful library to palliate missing SDK utilities, etc.
+
+Among the most frequent criticism Maksim collected:
+
+- the lack of generics
+- language design stuck in the 70's
+- error handling
+- too opinionated
+- no usual object-orientation
+- odd behavior of slices
+- lack of exceptions
+- a weird mascot!
+- has pointers
+- bad dependency management
+- no immutable data structures
+- too simple
+
+[[https://github.com/ksimka/go-is-not-good][Go is not good]]
