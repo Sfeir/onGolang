@@ -1,0 +1,20 @@
+Are Go maps sensitive to data races ?
+16 Dec 2015
+Tags: Maps, @davecheney
+
+Guillaume Laforge
+
+* Summary
+
+Dave Cheney, author of the [[https://getgb.io/][GB]], the project based dependency management for Go,
+is answering the question whether Go maps are sensitive to data races or not.
+
+Although maps are actually not prone to data races, Dave explains that we often see maps involved in panics because:
+
+- maps are often used for shared state
+- maps are more complex structures
+- maps move things
+
+Closing the article, Dave reminds us about the useful race detector, and advises Go developers to make good use of it.
+
+[[http://dave.cheney.net/2015/12/07/are-go-maps-sensitive-to-data-races][Are Go maps sensitive to data races ?]]
