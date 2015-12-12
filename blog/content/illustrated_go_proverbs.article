@@ -1,0 +1,19 @@
+Illustrated Go proverbs
+14 Dec 2015
+Tags: Proverbs, @GregOsuri, @rob_pike
+
+Guillaume Laforge
+
+* Summary
+
+Recently, we mentioned the famous [[/proverbs_for_go][Go proverbs]] from Rob Pike.
+Greg Osuri decided to illustrate some of them, with concrete code samples:
+
+- The bigger the interface, the weaker the abstraction
+- Make the zero value useful
+- Channels orchestrate; mutexes serialize
+- A little copying is better than a little dependency
+- Syscall must always be guarded with build tags
+- Reflection is never clear & interface{} says nothing
+
+[[http://www.gregosuri.com/2015/12/04/go-proverbs-illustrated/][Go Proverbs Illustrated]]
