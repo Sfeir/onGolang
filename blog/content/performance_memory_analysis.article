@@ -1,0 +1,14 @@
+Performance and memory analysis of Go programs
+19 Dec 2015
+Tags: Optimization, Profiling, Performance, Memory, @ralch
+
+Guillaume Laforge
+
+* Summary
+
+Svett Ralchev is diving into performance metrics for Go programs.
+Pprof is introduced, to instrument code, to add events to track what's happening in your code.
+You can look at the heap memory profile, the CPU profile, or define your own custom profiles.
+And Svett concludes with a nice trick of pprof which allows you to generate an SVG diagram report.
+
+[[http://blog.ralch.com/tutorial/golang-performance-and-memory-analysis/][Performance and memory analysis of Golang programs]]
