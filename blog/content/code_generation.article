@@ -1,0 +1,18 @@
+Reducing boilerplate with go generate
+18 Dec 2015
+Tags: CodeGeneration, @GopherAcademy
+
+Guillaume Laforge
+
+* Summary
+
+For GopherAcademy's advent calendar, Ernesto Jiménez talks about go generate:
+
+- Why can we build tools with Go that will help reduce boilerplate using code generation.
+- What are the building blocks for code generation in Go.
+- Where can we find examples of code generation tools to learn more.
+
+Go was designed to make language comprehension tools easier to make,
+and provides the needed machinery to generate code (go templates)
+
+[[https://blog.gopheracademy.com/advent-2015/reducing-boilerplate-with-go-generate/][Reducing boilerplate with go generate]]
