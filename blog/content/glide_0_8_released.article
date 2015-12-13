@@ -16,4 +16,4 @@ rather than always relying on the more brittle approach of building on the lates
 
 This new version also takes advantage of Go 1.5's vendoring system.
 
-[[http://technosophos.com/2015/12/11/why-glide-0-8-is-our-biggest-release.html][http://technosophos.com/2015/12/11/why-glide-0-8-is-our-biggest-release.html]]
+[[http://technosophos.com/2015/12/11/why-glide-0-8-is-our-biggest-release.html][Glide 0.8 released]]
