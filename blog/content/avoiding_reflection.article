@@ -1,0 +1,23 @@
+Avoiding reflection in Go
+20 Dec 2015
+Tags: Optimization, Reflection, CodeGeneration, GoGenerate, @
+
+Guillaume Laforge
+
+* Summary
+
+Go's type system is not necessarily as strong as some other high-level programming languages,
+and the result is that sometimes you have to resort to reflection,
+your code relies too much on interface{},
+you copy and paste data structure code because of lack of proper generics, etc.
+
+To improve upon that situation, the author details some advice, to use Go's approach and tools to their fullest extent:
+
+- little types: alias basic types to give more meaning to mere numbers
+- type composition and decoration (instead of inheritance)
+- leveraging generic algorithms (not generic data structures Go doesn't have)
+- using "class methods" (ie. struct methods not accessing any instance information) and interfaces offering getter methods
+- sum types
+- using interface{} only as "in" parameters
+
+[[http://www.jerf.org/iri/post/2945][Avoiding Reflection (And Such) In Go]]
