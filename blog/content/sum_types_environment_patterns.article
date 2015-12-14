@@ -1,0 +1,14 @@
+Sum types and environment object patterns in Go
+21 Dec 2015
+Tags: DesignPattern
+
+Guillaume Laforge
+
+* Summary
+
+Yesterday, I was talking about an interesting [[/avoiding_reflection][article]] from Jeremy Bowers,
+on how to avoid reflections and friends,
+and I discovered other ones on his blog, related to how to implement certain patterns in Go:
+
+- how to implement [[http://www.jerf.org/iri/post/2917][Sum types in Go]], by using a non-empty tag interface{}, implemented by all summed types, and using a switch over the type to distinguish the various cases
+- avoiding global variables, with [[http://www.jerf.org/iri/post/2929][the environment object pattern]], by defining a module that gathers all the required environmental variables needed by your application
