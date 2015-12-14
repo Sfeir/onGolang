@@ -1,0 +1,16 @@
+Starting and stopping things with a signal channel
+22 Dec 2015
+Tags: Channel, GoRoutine, Beginner, Tutorial, @matryer
+
+Guillaume Laforge
+
+* Summary
+
+Mat Ryer continues delivering Go nuggets in his Go Advent calendar:
+last week, he dived in how to start and stop things with a signal channel.
+
+You can use Go channels with empty structs to signal a communication between goroutines is over,
+to easily queue up some goroutine and have them start concurrently, or stop some computation when a stop signal is received.
+One advantage of empty structs is that they virtually take no space at all.
+
+[[https://medium.com/@matryer/golang-advent-calendar-day-two-starting-and-stopping-things-with-a-signal-channel-f5048161018#.fgrdnel2o][Starting and stopping things with a signal channel]]
