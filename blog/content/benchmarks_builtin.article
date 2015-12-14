@@ -1,0 +1,18 @@
+Built-in benchmarks in Go
+24 Dec 2015
+Tags: Benchmark, Tutorial, @LK4D4math
+
+Guillaume Laforge
+
+* Summary
+
+Alexander Morozov demonstrates how to use the built-in benchmark capabilities in Go,
+explaining:
+
+- how to write benchmarks
+- detailing what you can benchmark
+- how to setup benchmarks
+- how to compare results of benchmarks
+- how to write profiles
+
+[[http://lk4d4.darth.io/posts/bench/][Go Benchmarks]]
