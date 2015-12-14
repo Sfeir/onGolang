@@ -1,6 +1,6 @@
 Avoiding reflection in Go
 20 Dec 2015
-Tags: Optimization, Reflection, CodeGeneration, GoGenerate, @
+Tags: Optimization, Reflection, CodeGeneration, GoGenerate
 
 Guillaume Laforge
 
@@ -11,7 +11,7 @@ and the result is that sometimes you have to resort to reflection,
 your code relies too much on interface{},
 you copy and paste data structure code because of lack of proper generics, etc.
 
-To improve upon that situation, the author details some advice, to use Go's approach and tools to their fullest extent:
+To improve upon that situation, Jeremy Bowers details some advice, to use Go's approach and tools to their fullest extent:
 
 - little types: alias basic types to give more meaning to mere numbers
 - type composition and decoration (instead of inheritance)
