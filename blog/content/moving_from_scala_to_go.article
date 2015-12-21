@@ -1,0 +1,18 @@
+Moving from Scala to Go
+22 Dec 2015
+Tags: Scala, @jimplush
+
+Guillaume Laforge
+
+* Summary
+
+Jim Plush tells the story of CrowdStrike, how they moved from Scala to Go.
+Scala tends to divide programmers in two camps: those who use it as a "better Java",
+and those who abuse of take its functional aspects to the extreme.
+The division splits the team, and makes it harder to maintain a code base with two differing programming approaches.
+On the other hand, Go tries to favor only one approach or programming style,
+encouraging developers to do things in only one way,
+compiles programs in a snap,
+make the code intent clearer thanks to the simpler scope of the language.
+
+[[hhttp://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/][Moving a team from Scala to Golang]]
