@@ -7,9 +7,11 @@ Guillaume Laforge
 * Summary
 
 Jim Plush tells the story of CrowdStrike, how they moved from Scala to Go.
+
 Scala tends to divide programmers in two camps: those who use it as a "better Java",
 and those who abuse of take its functional aspects to the extreme.
 The division splits the team, and makes it harder to maintain a code base with two differing programming approaches.
+
 On the other hand, Go tries to favor only one approach or programming style,
 encouraging developers to do things in only one way,
 compiles programs in a snap,
