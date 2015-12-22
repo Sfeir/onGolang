@@ -1,0 +1,13 @@
+Goroutines Race for HTTP Requests
+25 Dec 2015
+Tags: HTTP, Goroutines, @mattrco, @CloudFlare 
+
+Didier Girard
+* Summary
+
+When you make a request with net/http, a race happens. Races in code are often an
+unwanted side effect, but in this case it's intentional. Two goroutines operate in parallel: one that
+tries to dial a connection to the remote host, and another which tries to retrieve an idle connection
+from the connection pool. The fastest goroutine wins.
+
+[[https://blog.cloudflare.com/whats-inside-net-http-socket-late-binding-in-the-go-standard-library/][What's inside net/http? Late binding in the Go standard library]]
