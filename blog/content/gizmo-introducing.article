@@ -1,0 +1,13 @@
+NYTimes releases Gizmo, an golang microservices framework
+22 Dec 2015
+Tags: microservices, gRPC, @nytdevs, @jprbnsn
+
+Didier Girard
+* Summary
+
+Gizmo offers four packages to help developers quickly configure and build microservice APIs and pubsub daemons.
+
+The New York Times developers have been adopting the Go programming language over the last three years to build
+back-end services. 
+
+[[http://open.blogs.nytimes.com/2015/12/17/introducing-gizmo/][Introducing Gizmo]]
