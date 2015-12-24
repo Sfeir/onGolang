@@ -1,0 +1,13 @@
+Complete List of Golang Libraries for data science
+27 Dec 2015
+Tags: Libraries, DataScience, @mjhalldotorg
+
+Didier Girard
+* Summary
+
+Go has the advantage of being a small and simple language which is easy to learn. Fast compile times and garbage
+collection make Go a natural fit for iterative development.
+
+That is probably why there are more and more Golang Libraries for Data Science.
+
+[[http://www.mjhall.org/golang-data-science-libraries/][Golang libraries for data science]] 
