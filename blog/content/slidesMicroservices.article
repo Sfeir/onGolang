@@ -1,0 +1,12 @@
+Microservices : great slides
+29 Dec 2015
+Tags: Microservices, @nathariel
+
+Didier Girard
+* Summary
+
+Go is a great language for microservices. It is the first thing it is used for.
+Not all server-side web development falls under that category but if you plan
+to build a microservices infrastructure, Go is certainly the language of choice.
+
+[[http://www.slideshare.net/nathariel/microservices-nextsteps][Microservices: next-steps]]
