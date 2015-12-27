@@ -1,0 +1,14 @@
+Extensive Go type system tutorial
+31 Dec 2015
+Tags: TypeSystem, Tutorial, Refactoring
+
+Guillaume Laforge
+
+* Summary
+
+Alan Donovan maintains a highly detailed and extensive document on the Go type system.
+If you want to know how the various types work, the scopes, methods, constants, and more, this is the article to study.
+This is particularly interesting if you are looking into working on tools like refactoring tools,
+or other code comprehension tools.
+
+[[https://github.com/golang/example/tree/master/gotypes][go/types: The Go Type Checker]]
