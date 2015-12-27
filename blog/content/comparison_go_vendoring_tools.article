@@ -1,0 +1,20 @@
+Comparison of Go vendoring tools
+4 Jan 2016
+Tags: Vendoring, Dependency, @FiloSottile, @onuryilmaz
+
+Guillaume Laforge
+
+* Summary
+
+As Filippo Valsorda reported recently,
+[[https://blog.filippo.io/most-go-tools-now-work-with-go15vendorexperiment/][most Go vendoring tools now work with the upcoming Go 1.6 vendoring capability]].
+
+In another article, Onur Yilmaz compares various Go vendoring tools, with pros and cons, including:
+
+- godep
+- glide
+- govendor
+- gvt
+
+[[https://blog.filippo.io/most-go-tools-now-work-with-go15vendorexperiment/][Most go tools now work with GO15VENDOREXPERIMENT]]
+[[https://medium.com/@onuryilmaz/comparison-of-go-vendoring-tools-acf019ea476f#.vt9aqa1tf][Comparison of Go Vendoring Tools]]
