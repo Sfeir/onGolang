@@ -1,0 +1,20 @@
+Getting started with unit testing
+1 Jan 2016
+Tags: UnitTesting, Testing, Tutorial, Beginner
+
+Guillaume Laforge
+
+* Summary
+
+Let's start the new year with a good resolution: unit testing our Go code!
+
+In this article, an introduction to the unit testing facilities of Go is presented,
+explaining some of the conventions used, like file locations, naming standards, creating a test suite, etc.
+
+The author also demonstrates the [[https://github.com/stretchr/testify][Testify]] library,
+which provides more advanced assertion capabilities.
+
+Along with details on how to define different test profiles, for a quicker round of tests, skipping some of them,
+we also get a chance to look at the built-in test coverage support provided by the go test command.
+
+[[http://codesamplez.com/development/golang-unit-testing][Getting Started With Golang Unit Testing]]
