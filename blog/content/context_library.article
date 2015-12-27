@@ -1,0 +1,23 @@
+Go's Context library
+30 Dec 2015
+Tags: Context, @ralch
+
+Guillaume Laforge
+
+* Summary
+
+Svett Ralchev writes about concurrent patterns in Go, thanks to the
+[[https://godoc.org/golang.org/x/net/context][Context package]].
+
+_The_Context_package_is_responsible_for_signal_cancellation_and_operation_deadlines_for_processes_and_server_requests_
+
+Svett recommends:
+
+- don't store contexts in structs
+- do not pass nill contexts
+- do not use context.WithValue for passing optional parameters to functions
+
+Also have a look at the [[https://godoc.org/golang.org/x/net/context/ctxhttp][ctxhttp]] package
+for context-aware HTTP requests.
+
+[[http://blog.ralch.com/tutorial/golang-concurrency-patterns-context/][Concurrent patterns in Golang: Context]]
