@@ -10,4 +10,4 @@ The Go team released a first beta of Go 1.6, and published the release notes ahe
 covering the built-in HTTP/2 support, templates improvements, the default activation of the vendoring mechanism,
 friendlier traces on panics, and faster sorting algorithm.
 
-[[hhttp://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/][Moving a team from Scala to Golang]]
+[[https://tip.golang.org/doc/go1.6][Moving a team from Scala to Golang]]
