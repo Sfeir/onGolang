@@ -1,0 +1,20 @@
+How to complain about Go
+29 Dec 2015
+Tags: Criticism
+
+Guillaume Laforge
+
+* Summary
+
+Go is an opinionated language, whose creators decided to make it simple to grok,
+but for newcomers from other languages might find certain features missing,
+or might have some particular criticism to make compared to how different the language might be from what they know.
+
+Ivan Danyliuk explains "how to complain about Go"!
+He lists common complaints (we already mentioned in an earlier [[http://on-golang.appspot.com/go_is_not_good][article]],
+like the peculiar error handling, the absence of generics, the lack of overloading, and more.
+
+Ivan also takes the point of view of newcomers from different programming language angles:
+Python, C++, Rust, Java, Ruby, D, Perl, C#, or Haskell.
+
+[[https://medium.com/@divan/how-to-complain-about-go-349013e06d24#.llb1zkzdn][How to complain about Go]]

@@ -1,0 +1,15 @@
+Go code comprehension tools
+3 Jan 2016
+Tags: CodeComprehension, Tools, @ralch
+
+Guillaume Laforge
+
+* Summary
+
+Svett Ralchev discusses the various code comprehension tools available for the Go programming language.
+Go was designed to be easily processable by tools, and the tools available for that proves it.
+
+Tools covered include Oracle and Pythia (a brower based user interface for Oracle),
+and Godegraph for viewing dependency graphs.
+
+[[http://blog.ralch.com/tutorial/golang-tools-comprehension/][Golang code comprehension tools]]
