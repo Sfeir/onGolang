@@ -1,0 +1,17 @@
+Grace : Graceful restart
+05 Jan 2016
+Tags: Library, Production
+
+Didier Girard
+* Summary
+
+quizlet.com : "While we're able to run our binaries for long periods of time thanks to Go's
+managed memory, we still want to be able to deploy new versions of the service or update
+the service's knowledge of the table schemas. Taking an Eventlogger process down for even
+a split second would case use to lose event data since every single request we serve
+produces at least one event. We rely on grace to handle handing-off of the port and letting
+the old process finish outstanding requests."
+
+Simple and very useful.
+
+[[https://github.com/facebookgo/grace][Grace]]
