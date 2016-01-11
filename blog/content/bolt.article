@@ -1,0 +1,18 @@
+BoltDB : Fast and pure Go key/value database library.
+11 Jan 2016
+Tags: Library, DB, @boltdb
+
+Didier Girard
+* Summary
+
+BoltDB is “pure Go key/value store” with the goals of providing “a simple, fast,
+and reliable database for projects that don’t require a full database server such
+as Postgres or MySQL”.
+
+BoltDB is similar to LMDB. Just like LMDB BoltDB supports fully serializable ACID transactions.
+It doesn’t have a query language.
+
+Bolt is just a Go package.  There’s nothing you need to install. You just
+get it and import “github.com/boltdb/bolt”. That's it.
+
+[[https://github.com/boltdb/bolt][BoltDB]]
