@@ -1,0 +1,12 @@
+Efficient String Concatenation in Go
+14 Jan 2016
+Tags: String, Concatenation, Tips, @dongriat
+
+Didier Girard
+* Summary
+
+Strings concatenation (or joining) is a key facility within a programming language.
+It’s especially vital for web applications, since strings are used to generate
+outputs (HTML, json). In this article, four functional ways of building strings are described.
+
+[[http://verygoodsoftwarenotvirus.ru/2015/12/31/string-build/][String Building in Go]]
