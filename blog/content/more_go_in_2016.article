@@ -1,0 +1,15 @@
+More Go in 2016
+20 Jan 2016
+Tags: Opinion, @wintr_us
+
+Guillaume Laforge
+
+* Summary
+
+Nick Cox shares his opinions why his company will be writing more Go in 2016, thanks to:
+
+- Runtime-independent binaries
+- Automatic code quality checks
+- Synchronous & asynchronous code execution
+
+[[http://www.wintr.us/blog/three-reasons-go][Three Reasons We’ll Be Writing More Go in 2016]]
