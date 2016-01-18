@@ -1,0 +1,12 @@
+Implementing the Singleton pattern in Go
+19 Jan 2016
+Tags: Singleton, DesignPattern, @ralch
+
+Guillaume Laforge
+
+* Summary
+
+Svett Ralchev demonstrates, step by step, how to implement the Singleton pattern in Go,
+taking advantage of visibility rules, global variables, and the Once synchronization primitive.
+
+[[http://blog.ralch.com/tutorial/design-patterns/golang-singleton/][Design Patterns in Golang: Singleton]]
