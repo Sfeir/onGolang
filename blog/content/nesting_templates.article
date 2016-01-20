@@ -1,0 +1,12 @@
+Nesting Go templates
+21 Jan 2016
+Tags: Templating, @IndianGuru
+
+Guillaume Laforge
+
+* Summary
+
+Satish Talim explains how to use Go templates as layouts in your web applications,
+thanks to the nesting capabilities of Go templates.
+
+[[https://blog.rubylearning.com/go-web-programming-nesting-templates-f008418c6cc8#.kk84ws2od][Go Web Programming: Nesting templates]]
