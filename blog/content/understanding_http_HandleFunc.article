@@ -1,0 +1,14 @@
+Understanding "http.HandleFunc" function
+21 Jan 2016
+Tags: HTTP,Tips , @integralist
+
+Florent Legras
+
+* Summary
+
+Start with a simple question: 
+Why insert "nil" to the "http.ListenAndServe" function when setting up a basic web server?
+
+This blog post will demonstrate a few different ways of creating a web server and then clarify how http.HandleFunc works.
+
+[[http://www.integralist.co.uk/posts/golang-webserver.html][Understanding Golang's func type]]
