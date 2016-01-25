@@ -1,0 +1,15 @@
+Understanding Go's error handling
+28 Jan 2016
+Tags: Error, @ranacseruet
+
+Guillaume Laforge
+
+* Summary
+
+In this article, Md Ali Ahsan Rana introduces the reader to the Go error handling:
+
+- handling errors coming from a method call
+- how to create and return your own errors in your methods and functions
+- how to create a panic or recover from a panic
+
+[[http://codesamplez.com/programming/golang-error-handling][Understanding Golang Error Handling]]
