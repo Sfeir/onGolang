@@ -1,0 +1,22 @@
+An analysis of Go code repositories
+2 Feb 2016
+Tags: Analysis, @ScottMansfield
+
+Guillaume Laforge
+
+* Summary
+
+Scott Mansfield studied about a thousand repositories using the Go programming language, looking at:
+
+- code organization
+- vendoring
+- age of the project
+- activity of the most popular projects
+- number of repositories per organization or user
+- usage of unsafe, reflection or cgo
+
+Scott also shares the bits of scripting magic that allowed him to run this analysis,
+gives some hints to some potential further analysis,
+and concludes that the Golang community is growing nicely and is really very active.
+
+[[http://blog.sgmansfield.com/2016/01/an-analysis-of-the-top-1000-go-repositories/][An Analysis of the Top 1000 Go Repositories]]
