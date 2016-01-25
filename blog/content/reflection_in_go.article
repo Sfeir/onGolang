@@ -1,0 +1,18 @@
+Understanding Go reflection
+29 Jan 2016
+Tags: Reflection, @ralch
+
+Guillaume Laforge
+
+* Summary
+
+Although you should be trying to [[/avoiding_reflection][avoid reflection]] when you can,
+Sven Ralchev explains how to work with reflection in Go, with concrete examples:
+
+- validating fields,
+- recognising interfaces and calling functions.
+
+Once you're aware of the tradeoffs of reflection (usually a performance penalty),
+there are some interesting situations when reflection is a perfectly valid solution.
+
+[[http://blog.ralch.com/tutorial/golang-reflection/][Reflection in Golang]]
