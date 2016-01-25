@@ -1,0 +1,15 @@
+Go test coverage with external tests
+27 Jan 2016
+Tags: Testing, CodeCoverage
+
+Guillaume Laforge
+
+* Summary
+
+On the CloudFlare blog, Filippo Valsorda shows a hack on
+how to get end-to-end test coverage from the main entry point of your application,
+rather than with just coverage for unit tests.
+And he advises to use the GoCoMerge project to finally merge the usual unit tests coverage
+as well as the report from the main application.
+
+[[https://blog.cloudflare.com/go-coverage-with-external-tests/][Go coverage with external tests]]
