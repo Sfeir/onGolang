@@ -1,0 +1,12 @@
+Implementing the Builder pattern in Go
+25 Jan 2016
+Tags: Builder, DesignPattern, @ralch
+
+Guillaume Laforge
+
+* Summary
+
+Following up, his post on implementing the [[/singleton_pattern][Singleton pattern]],
+Svett Ralchev demonstrates this time how to implement the Builder pattern in Go.
+
+[[http://blog.ralch.com/tutorial/design-patterns/golang-builder/][Desing Patterns in Golang: Builder]]
