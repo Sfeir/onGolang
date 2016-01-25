@@ -1,0 +1,11 @@
+Getting started with Gomock
+26 Jan 2016
+Tags: Testing, Mock
+
+Guillaume Laforge
+
+* Summary
+
+An introduction to Gomock, a library to create mocks and stubs, thanks to code generation.
+
+[[http://www.philosophicalhacker.com/post/getting-started-with-gomock/][Getting started with Gomock]]
