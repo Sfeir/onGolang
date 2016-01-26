@@ -1,0 +1,13 @@
+New York Times releases Go-based Gizmo microservices toolkit
+3 Feb 2016
+Tags: Microservices, Interview, @InfoQ
+
+Guillaume Laforge
+
+* Summary
+
+On InfoQ, Daniel Bryant interviewed JP Robinson, from the New York Times, on their Go-based microservices toolkit:
+
+_The_New_York_Times_development_team_have_released_‘Gizmo’,_an_open_source_Golang-based_microservices_toolkit,_which_provides_standardised_configuration_and_logging,_health_check_and_metric_endpoints_with_configurable_strategies,_and_basic_interfaces_to_define_service_expectations_and_vocabulary._
+
+[[http://www.infoq.com/news/2016/01/gizmo-microservices-toolkit][Introducing ‘Gizmo’, a Golang-based Microservices Toolkit from The New York Times Development Team]]
