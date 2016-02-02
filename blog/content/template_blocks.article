@@ -1,0 +1,13 @@
+Template blocks coming in Go 1.6
+4 Feb 2016
+Tags: Templating, @josephspurrier
+
+Guillaume Laforge
+
+* Summary
+
+Joseph Spurrier introduces us to a new action for templates coming up in Go 1.6.
+This new template "block" acts like templates, but it has a default value, that can be overriden thanks to define actions.
+Joseph shows some concrete code samples to illustrate how such blocks work.
+
+[[http://www.josephspurrier.com/how-to-use-template-blocks-in-go-1-6/][How to Use Template Blocks in Go 1.6]]
