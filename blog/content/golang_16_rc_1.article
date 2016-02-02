@@ -1,0 +1,13 @@
+Release candidate for Go 1.6
+5 Feb 2016
+Tags: Release, @broady
+
+Guillaume Laforge
+
+* Summary
+
+Go 1.6 has never been so close!
+A few days ago, on the golang-nuts mailing-list, Chris Broadfoot announced the release of the first release candidate for Go 1.6.
+Take it for a spin while it's hot!
+
+[[https://groups.google.com/d/topic/golang-nuts/4iqU__h7skQ/discussion][Go 1.6 Release Candidate 1 is released]]
