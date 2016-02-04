@@ -1,0 +1,12 @@
+Implementing the Builder pattern in Go
+8 Feb 2016
+Tags: Factory, DesignPattern, @ralch
+
+Guillaume Laforge
+
+* Summary
+
+Svett Ralchev is back on his interesting series of design pattern implementation in Go.
+This time, Svett is covering the Factory patter.
+
+[[http://blog.ralch.com/tutorial/design-patterns/golang-factory-method/][Desing Patterns in Golang: Factory Method]]
