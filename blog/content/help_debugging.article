@@ -1,0 +1,12 @@
+Debugging golang programs
+4 Mar 2016
+Tags: Debugging, Tips, @purpleidea
+
+Florent Legras
+
+* Summary
+
+When working with goroutines it's sometime difficult to debbug golang programs. 
+This post give some good tips to help debugging golang code. 
+
+[[https://ttboj.wordpress.com/2016/02/15/debugging-golang-programs/][Debugging golang programs]]
