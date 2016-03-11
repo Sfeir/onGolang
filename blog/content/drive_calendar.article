@@ -7,6 +7,6 @@ Florent Legras
 * Summary
 
 Integrating Google services into your app can lead to a lot of nice features for users. 
-This blog post explain how use Google services with Golang Project.
+This blog post explain how use Google services with Golang Project. 
 
 [[https://jacobmartins.com/2016/03/08/practical-golang-using-google-drive-and-calendar/][Practical Golang: Using Google Drive and Calendar]]
