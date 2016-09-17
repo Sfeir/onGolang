@@ -1,0 +1,17 @@
+Steve Francia joins Google
+17 Sep 2016
+Tags: Google, @spf13
+
+Guillaume Laforge
+
+* Summary
+
+On his blog, the well-known contributor to the Go ecosystem Steve Francia announces he's joined Google.
+After working at Mongo and Docker, Steve joins the Go language team at Google with the role to improve the Go user and developer experience.
+Steve created the [[https://gohugo.io/][Hugo]] static website generator, 
+the [[https://github.com/spf13/viper][Viper]] 
+and [[https://github.com/spf13/cobra][Cobra]] libraries, 
+and contributed articles, presentations, to the Go ecosystem,
+as well as organizing the GothamGo conference.
+
+[[http://spf13.com/post/joining-go-team-at-google/][I’m Joining The Go Team At Google]]
