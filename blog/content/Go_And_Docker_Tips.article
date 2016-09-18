@@ -1,0 +1,13 @@
+Jérôme Petazzoni shares tips to facilitate development of Go apps with Docker
+20 Sep 2016
+Tags: Docker
+
+Guillaume Laforge
+
+* Summary
+
+Jérôme Petazzoni, from [[https://www.docker.com/][Docker]] is sharing several useful tips for your Go developments, taking advantage of Docker.
+You may want to try your application with different versions of the Go compiler, to cross-compile your code for different architectures.
+Jérôme also explains how to build lean images for your Docker-based Go application deployments.
+
+[[https://blog.docker.com/2016/09/docker-golang/][Docker + Golang = <3]]
