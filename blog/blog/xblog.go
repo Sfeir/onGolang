@@ -410,7 +410,7 @@ func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-type", "text/text; charset=utf-8")
 		yesterday := time.Now().AddDate(0, 0, -1)
 		for i, doc := range s.docs {
-			if yesterday.YearDay() == doc.Time.YearDay() {
+			if yesterday.Year() == doc.Time.Year() && yesterday.YearDay() == doc.Time.YearDay() {
 				err := sendTweet(c, doc.Title, "http://on-golang.appspot.com"+doc.Path, doc.Tags)
 				if err != nil {
 					http.Error(w, err.Error(), 500)
