@@ -1,4 +1,4 @@
-cron:
-- description: daily summary job
-  url: /tweet
-  schedule: every day 14:00
+#cron:
+#- description: daily summary job
+#  url: /tweet
+#  schedule: every day 14:00
